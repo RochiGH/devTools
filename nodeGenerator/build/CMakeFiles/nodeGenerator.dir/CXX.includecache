@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/include/nodeLibrary.h
+iostream
+-
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/src/mainApp.cpp
+iostream
+-
+thread
+-
+random
+-
+algorithm
+-
+cmath
+-
+../include/nodeLibrary.h
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/include/nodeLibrary.h
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/src/nodeLibrary.cpp
+vector
+-
+sstream
+-
+iostream
+-
+../include/nodeLibrary.h
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/include/nodeLibrary.h
+

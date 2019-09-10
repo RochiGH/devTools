@@ -7,7 +7,7 @@
             "command": "clang++",
             "args": [
                 "-o",
-                "CppGuide", // executable
+                "nodeGenerator", // executable
                 "src/*.cpp", // main file
                 "-g",
                 "-v",

@@ -15,16 +15,27 @@ template <typename C> class String {
         C* ptr;
 };
 
-
-
-template <typename Coord> class Node {
-private:
-    Coord lon, lat;
     enum type {RTK, ROW, ROWMAN};
     enum side {CENTER, LEFT, RIGHT};
+
+template <typename Coord> 
+class Node {
+
+private:
+    Coord lon, lat;
+    int type;
+    int side;
+    Coord* ptr;
+
 public:
     Node();
-    void coordUpdate(double lon, double lat);
+    Node(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN);
+    explicit Node(const Coord* latIN, const Coord* lotIN);
+    Node(const Node&);
+    Coord& operator +=(Coord latIN);
+    void coordUpdate(Coord lon, Coord lat);
+    // void coordUpdate(double lon, double lat);
     void typeUpdate(int newType);
     void sideUpdate(int side);
+
 };

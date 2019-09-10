@@ -1,3 +1,7 @@
+#include <vector>
+#include <sstream>
+#include <iostream>
+
 #include "../include/nodeLibrary.h"
  
 using namespace std;
@@ -26,33 +30,46 @@ public:
     Vector(int i);
 };
 
-class gnNode {
-private:
-    double lat,lon;
-    enum type {RTK, ROW, MAN};
-    enum side {CENTER, RIGHT, LEFT};
-    int row;
-};
-
-void testAllocation() {
-    double * elem;
-    int sz = 19;
-    elem = new double[sz];
-    delete elem;
-}
 
 template <typename Coord> 
 Node<Coord>::Node() {
+    lon = 0;
+    lat = 0;
     
 }
-void coordUpdate(double lon, double lat){
+
+template <typename Coord> 
+Node<Coord>::Node(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN) : 
+    lat{latIN}, lon{lonIN}, type{typeIN}, side{sideIN} {}
+
+template <typename Coord> 
+void Node<Coord>::coordUpdate(Coord lonIN, Coord latIN) { 
+    
+    lon = lonIN;
+    lat = latIN;
     return;
-}
-void typeUpdate(int newType){
-        return;
 
 }
-void sideUpdate(int side){
-        return;
+template <typename Coord>
+void Node<Coord>::typeUpdate(int newTypeIN) {
+
+    type = newTypeIN;      
+    return;
 
 }
+
+template <typename Coord> 
+void Node<Coord>::sideUpdate(int sideIN){
+
+    side = sideIN;      
+    return;
+
+}
+
+void nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences) {
+
+    vector<int> v;
+    // vector<Node<double>> GraphReferences(4);
+    return;
+
+} 
