@@ -1,0 +1,3 @@
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/CMakeFiles/rebuild_cache.dir
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/CMakeFiles/edit_cache.dir
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/nodeGenerator/CMakeFiles/nodeGenerator.dir
