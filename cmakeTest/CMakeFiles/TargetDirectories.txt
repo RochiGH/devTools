@@ -1,0 +1,3 @@
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/CMakeFiles/rebuild_cache.dir
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/CMakeFiles/edit_cache.dir
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/CMakeFiles/cmakeTest.dir

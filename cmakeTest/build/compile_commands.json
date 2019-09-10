@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/build",
+  "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/include  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=gnu++11 -o CMakeFiles/cmakeTest.dir/src/devTemplate.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/devTemplate.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/devTemplate.cpp"
+},
+{
+  "directory": "/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/build",
+  "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/include  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=gnu++11 -o CMakeFiles/cmakeTest.dir/src/test.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/test.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/test.cpp"
+}
+]

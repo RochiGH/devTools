@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/include/devTemplate.h
+iostream
+-
+
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/devTemplate.cpp
+../include/devTemplate.h
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/include/devTemplate.h
+
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/src/test.cpp
+iostream
+-
+thread
+-
+random
+-
+algorithm
+-
+cmath
+-
+../include/devTemplate.h
+/Users/roccoferrante/Dropbox/Coding/C++/cmakeTest/include/devTemplate.h
+
