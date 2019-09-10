@@ -41,3 +41,18 @@ void testAllocation() {
     delete elem;
 }
 
+template <typename Coord> 
+Node<Coord>::Node() {
+    
+}
+void coordUpdate(double lon, double lat){
+    return;
+}
+void typeUpdate(int newType){
+        return;
+
+}
+void sideUpdate(int side){
+        return;
+
+}
