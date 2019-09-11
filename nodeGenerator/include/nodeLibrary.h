@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 void printOnConsole(const char * outputMessage);
 
 template <typename C> class String {
@@ -34,8 +36,8 @@ public:
     Node(const Node&);
     Coord& operator +=(Coord latIN);
     void coordUpdate(Coord lon, Coord lat);
-    // void coordUpdate(double lon, double lat);
     void typeUpdate(int newType);
     void sideUpdate(int side);
+    void nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences);
 
 };

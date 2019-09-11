@@ -42,6 +42,10 @@ template <typename Coord>
 Node<Coord>::Node(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN) : 
     lat{latIN}, lon{lonIN}, type{typeIN}, side{sideIN} {}
 
+template<>
+Node<double>::Node(const double* latIN, const double* lonIN, int typeIN, int sideIN) : 
+    lat{*latIN}, lon{*lonIN}, type{typeIN}, side{sideIN} {}
+
 template <typename Coord> 
 void Node<Coord>::coordUpdate(Coord lonIN, Coord latIN) { 
     
@@ -66,10 +70,23 @@ void Node<Coord>::sideUpdate(int sideIN){
 
 }
 
-void nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences) {
+template <typename Coord> 
+void Node<Coord>::nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences) {
 
-    vector<int> v;
-    // vector<Node<double>> GraphReferences(4);
+    for(int i = 0; i <= GraphReferences.max_size(); i++) {
+
+        GraphReferences[i].coordUpdate(this->lat + i, this->lon + i);
+
+    }
     return;
 
 } 
+
+template<typename Coord> 
+class gnNodeEx {
+    vector<Node<Coord>>* gnNode; 
+public:
+    gnNodeEx() : gnNode{new vector<Node<Coord>>(4) } { }
+    void print_all() const;
+};
+// error: pointer initialized with int // error: undefined identifier o
