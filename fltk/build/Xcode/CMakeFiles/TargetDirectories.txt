@@ -1,0 +1,3 @@
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/Xcode/CMakeFiles/fltk.dir
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/Xcode/CMakeFiles/ZERO_CHECK.dir
