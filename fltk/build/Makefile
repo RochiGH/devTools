@@ -123,6 +123,87 @@ fltk/fast:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/build
 .PHONY : fltk/fast
 
+src/fltk.o: src/fltk.cpp.o
+
+.PHONY : src/fltk.o
+
+# target to build an object file
+src/fltk.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.o
+.PHONY : src/fltk.cpp.o
+
+src/fltk.i: src/fltk.cpp.i
+
+.PHONY : src/fltk.i
+
+# target to preprocess a source file
+src/fltk.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.i
+.PHONY : src/fltk.cpp.i
+
+src/fltk.s: src/fltk.cpp.s
+
+.PHONY : src/fltk.s
+
+# target to generate assembly for a file
+src/fltk.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.s
+.PHONY : src/fltk.cpp.s
+
+src/fltkDevTools.o: src/fltkDevTools.cpp.o
+
+.PHONY : src/fltkDevTools.o
+
+# target to build an object file
+src/fltkDevTools.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o
+.PHONY : src/fltkDevTools.cpp.o
+
+src/fltkDevTools.i: src/fltkDevTools.cpp.i
+
+.PHONY : src/fltkDevTools.i
+
+# target to preprocess a source file
+src/fltkDevTools.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDevTools.cpp.i
+.PHONY : src/fltkDevTools.cpp.i
+
+src/fltkDevTools.s: src/fltkDevTools.cpp.s
+
+.PHONY : src/fltkDevTools.s
+
+# target to generate assembly for a file
+src/fltkDevTools.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDevTools.cpp.s
+.PHONY : src/fltkDevTools.cpp.s
+
+src/fltkDrawOgl.o: src/fltkDrawOgl.cpp.o
+
+.PHONY : src/fltkDrawOgl.o
+
+# target to build an object file
+src/fltkDrawOgl.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o
+.PHONY : src/fltkDrawOgl.cpp.o
+
+src/fltkDrawOgl.i: src/fltkDrawOgl.cpp.i
+
+.PHONY : src/fltkDrawOgl.i
+
+# target to preprocess a source file
+src/fltkDrawOgl.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.i
+.PHONY : src/fltkDrawOgl.cpp.i
+
+src/fltkDrawOgl.s: src/fltkDrawOgl.cpp.s
+
+.PHONY : src/fltkDrawOgl.s
+
+# target to generate assembly for a file
+src/fltkDrawOgl.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s
+.PHONY : src/fltkDrawOgl.cpp.s
+
 src/fltkLibrary.o: src/fltkLibrary.cpp.o
 
 .PHONY : src/fltkLibrary.o
@@ -150,33 +231,6 @@ src/fltkLibrary.cpp.s:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s
 .PHONY : src/fltkLibrary.cpp.s
 
-src/mainApp.o: src/mainApp.cpp.o
-
-.PHONY : src/mainApp.o
-
-# target to build an object file
-src/mainApp.cpp.o:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.o
-.PHONY : src/mainApp.cpp.o
-
-src/mainApp.i: src/mainApp.cpp.i
-
-.PHONY : src/mainApp.i
-
-# target to preprocess a source file
-src/mainApp.cpp.i:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.i
-.PHONY : src/mainApp.cpp.i
-
-src/mainApp.s: src/mainApp.cpp.s
-
-.PHONY : src/mainApp.s
-
-# target to generate assembly for a file
-src/mainApp.cpp.s:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.s
-.PHONY : src/mainApp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fltk"
+	@echo "... src/fltk.o"
+	@echo "... src/fltk.i"
+	@echo "... src/fltk.s"
+	@echo "... src/fltkDevTools.o"
+	@echo "... src/fltkDevTools.i"
+	@echo "... src/fltkDevTools.s"
+	@echo "... src/fltkDrawOgl.o"
+	@echo "... src/fltkDrawOgl.i"
+	@echo "... src/fltkDrawOgl.s"
 	@echo "... src/fltkLibrary.o"
 	@echo "... src/fltkLibrary.i"
 	@echo "... src/fltkLibrary.s"
-	@echo "... src/mainApp.o"
-	@echo "... src/mainApp.i"
-	@echo "... src/mainApp.s"
 .PHONY : help
 
 

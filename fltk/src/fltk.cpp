@@ -1,16 +1,12 @@
 #include <iostream>
 #include <thread>
 #include <random>
-
 #include <algorithm>
 #include <cmath>
 
-#include <FL/Fl.H>
-#include <FL/Fl_Window.H>
-#include <FL/Fl_Box.H>
-
-
 #include "../include/fltkLibrary.h"
+#include "../include/fltkDevTools.h"
+#include "../include/fltkDrawOgl.h"
  
 using namespace std;
  
@@ -65,7 +61,7 @@ void abssort(float* x, unsigned n) {
 std::default_random_engine generator;
 std::uniform_int_distribution<int> distribution(1,10);
 
-int mainApp()
+int test()
 {
   //we allocate on the heap an integer, we are entirely responsible for this allocation,
   //if we forget to release this memory it will be lost forever.
@@ -103,15 +99,12 @@ int mainApp()
   return 0;
 }
 
+// * Main Program Function * //
 
-int main(int argc, char **argv) {
-  Fl_Window *window = new Fl_Window(340,180);
-  Fl_Box *box = new Fl_Box(20,40,300,100,"Sei in Moto ???");
-  box->box(FL_UP_BOX);
-  box->labelfont(FL_BOLD+FL_ITALIC);
-  box->labelsize(36);
-  box->labeltype(FL_SHADOW_LABEL);
-  window->end();
-  window->show(argc, argv);
-  return Fl::run();
+int main() {
+
+   int a = fltkDrawTableInfo();
+   int b = fltkDrawOgl();
+   return 0;
+   
 }

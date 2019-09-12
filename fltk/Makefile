@@ -123,6 +123,33 @@ fltk/fast:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/build
 .PHONY : fltk/fast
 
+src/fltk.o: src/fltk.cpp.o
+
+.PHONY : src/fltk.o
+
+# target to build an object file
+src/fltk.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.o
+.PHONY : src/fltk.cpp.o
+
+src/fltk.i: src/fltk.cpp.i
+
+.PHONY : src/fltk.i
+
+# target to preprocess a source file
+src/fltk.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.i
+.PHONY : src/fltk.cpp.i
+
+src/fltk.s: src/fltk.cpp.s
+
+.PHONY : src/fltk.s
+
+# target to generate assembly for a file
+src/fltk.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltk.cpp.s
+.PHONY : src/fltk.cpp.s
+
 src/fltkLibrary.o: src/fltkLibrary.cpp.o
 
 .PHONY : src/fltkLibrary.o
@@ -150,33 +177,6 @@ src/fltkLibrary.cpp.s:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s
 .PHONY : src/fltkLibrary.cpp.s
 
-src/mainApp.o: src/mainApp.cpp.o
-
-.PHONY : src/mainApp.o
-
-# target to build an object file
-src/mainApp.cpp.o:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.o
-.PHONY : src/mainApp.cpp.o
-
-src/mainApp.i: src/mainApp.cpp.i
-
-.PHONY : src/mainApp.i
-
-# target to preprocess a source file
-src/mainApp.cpp.i:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.i
-.PHONY : src/mainApp.cpp.i
-
-src/mainApp.s: src/mainApp.cpp.s
-
-.PHONY : src/mainApp.s
-
-# target to generate assembly for a file
-src/mainApp.cpp.s:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/mainApp.cpp.s
-.PHONY : src/mainApp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... fltk"
+	@echo "... src/fltk.o"
+	@echo "... src/fltk.i"
+	@echo "... src/fltk.s"
 	@echo "... src/fltkLibrary.o"
 	@echo "... src/fltkLibrary.i"
 	@echo "... src/fltkLibrary.s"
-	@echo "... src/mainApp.o"
-	@echo "... src/mainApp.i"
-	@echo "... src/mainApp.s"
 .PHONY : help
 
 

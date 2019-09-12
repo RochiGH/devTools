@@ -57,9 +57,48 @@ include CMakeFiles/fltk.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/fltk.dir/flags.make
 
+CMakeFiles/fltk.dir/src/fltk.cpp.o: CMakeFiles/fltk.dir/flags.make
+CMakeFiles/fltk.dir/src/fltk.cpp.o: ../src/fltk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fltk.dir/src/fltk.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltk.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltk.cpp
+
+CMakeFiles/fltk.dir/src/fltk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fltk.dir/src/fltk.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltk.cpp > CMakeFiles/fltk.dir/src/fltk.cpp.i
+
+CMakeFiles/fltk.dir/src/fltk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltk.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltk.cpp -o CMakeFiles/fltk.dir/src/fltk.cpp.s
+
+CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o: CMakeFiles/fltk.dir/flags.make
+CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o: ../src/fltkDevTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDevTools.cpp
+
+CMakeFiles/fltk.dir/src/fltkDevTools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fltk.dir/src/fltkDevTools.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDevTools.cpp > CMakeFiles/fltk.dir/src/fltkDevTools.cpp.i
+
+CMakeFiles/fltk.dir/src/fltkDevTools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltkDevTools.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDevTools.cpp -o CMakeFiles/fltk.dir/src/fltkDevTools.cpp.s
+
+CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o: CMakeFiles/fltk.dir/flags.make
+CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o: ../src/fltkDrawOgl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawOgl.cpp
+
+CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawOgl.cpp > CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.i
+
+CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawOgl.cpp -o CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s
+
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o: CMakeFiles/fltk.dir/flags.make
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o: ../src/fltkLibrary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkLibrary.cpp
 
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.i: cmake_force
@@ -70,32 +109,23 @@ CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkLibrary.cpp -o CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s
 
-CMakeFiles/fltk.dir/src/mainApp.cpp.o: CMakeFiles/fltk.dir/flags.make
-CMakeFiles/fltk.dir/src/mainApp.cpp.o: ../src/mainApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fltk.dir/src/mainApp.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/mainApp.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/mainApp.cpp
-
-CMakeFiles/fltk.dir/src/mainApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fltk.dir/src/mainApp.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/mainApp.cpp > CMakeFiles/fltk.dir/src/mainApp.cpp.i
-
-CMakeFiles/fltk.dir/src/mainApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/mainApp.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/mainApp.cpp -o CMakeFiles/fltk.dir/src/mainApp.cpp.s
-
 # Object files for target fltk
 fltk_OBJECTS = \
-"CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o" \
-"CMakeFiles/fltk.dir/src/mainApp.cpp.o"
+"CMakeFiles/fltk.dir/src/fltk.cpp.o" \
+"CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o" \
+"CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o" \
+"CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
 
 # External object files for target fltk
 fltk_EXTERNAL_OBJECTS =
 
+fltk: CMakeFiles/fltk.dir/src/fltk.cpp.o
+fltk: CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o
+fltk: CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o
 fltk: CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o
-fltk: CMakeFiles/fltk.dir/src/mainApp.cpp.o
 fltk: CMakeFiles/fltk.dir/build.make
 fltk: CMakeFiles/fltk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable fltk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fltk"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fltk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

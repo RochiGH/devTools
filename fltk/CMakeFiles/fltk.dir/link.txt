@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o CMakeFiles/fltk.dir/src/mainApp.cpp.o  -o fltk 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/fltk.dir/src/fltk.cpp.o CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o  -o fltk 

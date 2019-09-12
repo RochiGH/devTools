@@ -7,10 +7,14 @@
             "command": "clang++",
             "args": [
                 "-o",
-                "fltk", // executable
-                "src/*.cpp", // main file
+                "fltk",
+                "src/*.cpp", 
                 "-g",
                 "-lfltk",
+                "-lfltk_gl",
+                "-framework",
+                "OPENGL",
+                "-lfltk_images",
                 "-v",
                 "-std=c++11"
             ],
@@ -35,6 +39,6 @@
                     "message": 5
                 }
             }
-        }
+        }, 
     ]
 }

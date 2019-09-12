@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/include -I/usr/local/Cellar/fltk/1.3.5/include -I/usr/local/Cellar/fltk/1.3.5/include/FL 
+CXX_INCLUDES = -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/include 
 
