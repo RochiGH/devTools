@@ -103,7 +103,7 @@ int test()
 
 int main() {
 
-   int a = fltkDrawTableInfo();
+   // int a = fltkDrawTableInfo();
    int b = fltkDrawOgl();
    return 0;
    

@@ -32,8 +32,23 @@ class MyGlWindow : public Fl_Gl_Window {
         glClear(GL_COLOR_BUFFER_BIT);
         glColor3f(10.0, 500.0, 200.0);
         // Draw white 'X'
-        glBegin(GL_LINE_STRIP); glVertex2f(w()/4, h()/4); glVertex2f(-w()/4,-h()/4); glEnd();
-        glBegin(GL_LINE_STRIP); glVertex2f(0, h()/4); glVertex2f(-w()/4,-h()/4); glEnd();
+        vector<GLfloat> x {0, 0};
+        vector<GLfloat> y {1, 1};
+
+        // for (int i = 0; i < x.size() - 1; i++) 
+        {
+            // glBegin(GL_LINE_STRIP); glVertex2f(x[i], y[i]); glVertex2f(x[i+1], y[i+1]); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(0, 0); glVertex2f(100.0, 100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(100.0, 100.0); glVertex2f(200.0, -100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(200.0, -100.0); glVertex2f(300.0, 100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(300.0, 100.0); glVertex2f(400.0, -100.0); glEnd();
+
+            glBegin(GL_LINE_STRIP); glVertex2f(0, 0); glVertex2f(-100.0, 100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(-100.0, 100.0); glVertex2f(-200.0, -100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(-200.0, -100.0); glVertex2f(-300.0, 100.0); glEnd();
+            glBegin(GL_LINE_STRIP); glVertex2f(-300.0, 100.0); glVertex2f(-400.0, -100.0); glEnd();
+        }
+
         
     }
 public:

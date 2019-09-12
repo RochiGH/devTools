@@ -1,4 +1,11 @@
 #include <iostream>
+#include <thread>
+#include <random>
+#include <algorithm>
+#include <cmath>
+#include <vector>
+
+#define GL_SILENCE_DEPRECATION
 
 #include <FL/Fl.H>
 #include <FL/Fl_Window.H>
