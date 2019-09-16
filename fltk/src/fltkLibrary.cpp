@@ -32,22 +32,22 @@ public:
 
 
 template <typename Coord> 
-Node<Coord>::Node() {
+NodeT<Coord>::NodeT() {
     lon = 0;
     lat = 0;
     
 }
 
 template <typename Coord> 
-Node<Coord>::Node(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN) : 
+NodeT<Coord>::NodeT(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN) : 
     lat{latIN}, lon{lonIN}, type{typeIN}, side{sideIN} {}
 
 template<>
-Node<double>::Node(const double* latIN, const double* lonIN, int typeIN, int sideIN) : 
+NodeT<double>::NodeT(const double* latIN, const double* lonIN, int typeIN, int sideIN) : 
     lat{*latIN}, lon{*lonIN}, type{typeIN}, side{sideIN} {}
 
 template <typename Coord> 
-void Node<Coord>::coordUpdate(Coord lonIN, Coord latIN) { 
+void NodeT<Coord>::coordUpdate(Coord lonIN, Coord latIN) { 
     
     lon = lonIN;
     lat = latIN;
@@ -55,7 +55,7 @@ void Node<Coord>::coordUpdate(Coord lonIN, Coord latIN) {
 
 }
 template <typename Coord>
-void Node<Coord>::typeUpdate(int newTypeIN) {
+void NodeT<Coord>::typeUpdate(int newTypeIN) {
 
     type = newTypeIN;      
     return;
@@ -63,7 +63,7 @@ void Node<Coord>::typeUpdate(int newTypeIN) {
 }
 
 template <typename Coord> 
-void Node<Coord>::sideUpdate(int sideIN){
+void NodeT<Coord>::sideUpdate(int sideIN){
 
     side = sideIN;      
     return;
@@ -71,7 +71,7 @@ void Node<Coord>::sideUpdate(int sideIN){
 }
 
 template <typename Coord> 
-void Node<Coord>::nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences) {
+void NodeT<Coord>::nodeGenerateGraphReferences(vector<NodeT<double>>& GraphReferences) {
 
     for(int i = 0; i <= GraphReferences.max_size(); i++) {
 
@@ -84,9 +84,9 @@ void Node<Coord>::nodeGenerateGraphReferences(vector<Node<double>>& GraphReferen
 
 template<typename Coord> 
 class gnNodeEx {
-    vector<Node<Coord>>* gnNode; 
+    vector<NodeT<Coord>>* gnNode; 
 public:
-    gnNodeEx() : gnNode{new vector<Node<Coord>>(4) } { }
+    gnNodeEx() : gnNode{new vector<NodeT<Coord>>(4) } { }
     void print_all() const;
 };
 // error: pointer initialized with int // error: undefined identifier o

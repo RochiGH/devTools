@@ -23,6 +23,7 @@
 #include <FL/Fl_Input.H>
 #include <FL/Fl_Gl_Window.H>
 #include <FL/gl.h>
+#include <FL/Fl_Chart.H>
 
 using namespace std;
 

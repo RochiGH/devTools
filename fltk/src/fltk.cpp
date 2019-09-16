@@ -7,6 +7,7 @@
 #include "../include/fltkLibrary.h"
 #include "../include/fltkDevTools.h"
 #include "../include/fltkDrawOgl.h"
+#include "../include/fltkReadLogRTK.h"
  
 using namespace std;
  
@@ -99,12 +100,34 @@ int test()
   return 0;
 }
 
+
+int fltkDrawStats() {
+    Fl_Window *win = new Fl_Window(1000, 480);
+    Fl_Chart  *chart = new Fl_Chart(20, 20, win->w()-40, win->h()-40, "Chart");
+    chart->bounds(-125.0, 125.0);
+    for ( double t=0; t<15; t+=0.5 ) {
+        double val = sin(t) * 125.0;
+        static char val_str[20];
+        sprintf(val_str, "%.0lf", val);
+        chart->add(val, val_str, (val<0)?FL_RED:FL_GREEN);
+    }
+    win->resizable(win);
+    win->show();
+    return(Fl::run());
+}
+
 // * Main Program Function * //
 
 int main() {
 
+
    // int a = fltkDrawTableInfo();
    int b = fltkDrawOgl();
+   // string rtkLogFile = "./rtklog.txt";
+   // int c = fltkReadLogRTK(rtkLogFile);
    return 0;
    
 }
+
+
+

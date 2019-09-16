@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o"
   "CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o"
   "CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
+  "CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o"
   "fltk"
   "fltk.pdb"
 )

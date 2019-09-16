@@ -231,6 +231,33 @@ src/fltkLibrary.cpp.s:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s
 .PHONY : src/fltkLibrary.cpp.s
 
+src/fltkReadLogRTK.o: src/fltkReadLogRTK.cpp.o
+
+.PHONY : src/fltkReadLogRTK.o
+
+# target to build an object file
+src/fltkReadLogRTK.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o
+.PHONY : src/fltkReadLogRTK.cpp.o
+
+src/fltkReadLogRTK.i: src/fltkReadLogRTK.cpp.i
+
+.PHONY : src/fltkReadLogRTK.i
+
+# target to preprocess a source file
+src/fltkReadLogRTK.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.i
+.PHONY : src/fltkReadLogRTK.cpp.i
+
+src/fltkReadLogRTK.s: src/fltkReadLogRTK.cpp.s
+
+.PHONY : src/fltkReadLogRTK.s
+
+# target to generate assembly for a file
+src/fltkReadLogRTK.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.s
+.PHONY : src/fltkReadLogRTK.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... src/fltkLibrary.o"
 	@echo "... src/fltkLibrary.i"
 	@echo "... src/fltkLibrary.s"
+	@echo "... src/fltkReadLogRTK.o"
+	@echo "... src/fltkReadLogRTK.i"
+	@echo "... src/fltkReadLogRTK.s"
 .PHONY : help
 
 

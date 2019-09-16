@@ -19,7 +19,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
-            "externalConsole": true, // set true to enable keyboard input
+            "externalConsole": false, // set true to enable keyboard input
             "osx": {
                 "MIMode": "lldb"
             }

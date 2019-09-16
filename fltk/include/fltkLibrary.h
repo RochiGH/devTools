@@ -21,7 +21,7 @@ template <typename C> class String {
     enum side {CENTER, LEFT, RIGHT};
 
 template <typename Coord> 
-class Node {
+class NodeT {
 
 private:
     Coord lon, lat;
@@ -30,14 +30,14 @@ private:
     Coord* ptr;
 
 public:
-    Node();
-    Node(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN);
-    explicit Node(const Coord* latIN, const Coord* lotIN);
-    Node(const Node&);
+    NodeT();
+    NodeT(const Coord* latIN, const Coord* lonIN, int typeIN, int sideIN);
+    explicit NodeT(const Coord* latIN, const Coord* lotIN);
+    NodeT(const NodeT&);
     Coord& operator +=(Coord latIN);
     void coordUpdate(Coord lon, Coord lat);
     void typeUpdate(int newType);
     void sideUpdate(int side);
-    void nodeGenerateGraphReferences(vector<Node<double>>& GraphReferences);
+    void nodeGenerateGraphReferences(vector<NodeT<double>>& GraphReferences);
 
 };
