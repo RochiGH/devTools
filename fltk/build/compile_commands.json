@@ -23,5 +23,10 @@
   "directory": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build",
   "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/include -I/usr/local/Cellar/fltk/1.3.5/include/FL  -g   -std=gnu++11 -o CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkReadLogRTK.cpp",
   "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkReadLogRTK.cpp"
+},
+{
+  "directory": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build",
+  "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/include -I/usr/local/Cellar/fltk/1.3.5/include/FL  -g   -std=gnu++11 -o CMakeFiles/fltk.dir/src/gnNode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/gnNode.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/gnNode.cpp"
 }
 ]

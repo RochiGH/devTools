@@ -258,6 +258,33 @@ src/fltkReadLogRTK.cpp.s:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.s
 .PHONY : src/fltkReadLogRTK.cpp.s
 
+src/gnNode.o: src/gnNode.cpp.o
+
+.PHONY : src/gnNode.o
+
+# target to build an object file
+src/gnNode.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/gnNode.cpp.o
+.PHONY : src/gnNode.cpp.o
+
+src/gnNode.i: src/gnNode.cpp.i
+
+.PHONY : src/gnNode.i
+
+# target to preprocess a source file
+src/gnNode.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/gnNode.cpp.i
+.PHONY : src/gnNode.cpp.i
+
+src/gnNode.s: src/gnNode.cpp.s
+
+.PHONY : src/gnNode.s
+
+# target to generate assembly for a file
+src/gnNode.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/gnNode.cpp.s
+.PHONY : src/gnNode.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +309,9 @@ help:
 	@echo "... src/fltkReadLogRTK.o"
 	@echo "... src/fltkReadLogRTK.i"
 	@echo "... src/fltkReadLogRTK.s"
+	@echo "... src/gnNode.o"
+	@echo "... src/gnNode.i"
+	@echo "... src/gnNode.s"
 .PHONY : help
 
 

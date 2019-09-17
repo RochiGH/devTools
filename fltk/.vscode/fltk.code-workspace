@@ -11,7 +11,9 @@
 			"__node_handle": "cpp",
 			"__split_buffer": "cpp",
 			"string": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"list": "cpp",
+			"bitset": "cpp"
 		}
 	}
 }

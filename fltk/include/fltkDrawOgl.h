@@ -24,6 +24,7 @@
 #include <FL/Fl_Gl_Window.H>
 #include <FL/gl.h>
 #include <FL/Fl_Chart.H>
+#include <FL/glut.H>
 
 using namespace std;
 
