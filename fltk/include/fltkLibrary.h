@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// TODO : delete 
+
 void printOnConsole(const char * outputMessage);
 
 template <typename C> class String {
@@ -16,9 +18,6 @@ template <typename C> class String {
         int sz;
         C* ptr;
 };
-
-    enum type {RTK, ROW, ROWMAN};
-    enum side {CENTER, LEFT, RIGHT};
 
 template <typename Coord> 
 class NodeT {

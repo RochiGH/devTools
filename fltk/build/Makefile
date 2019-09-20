@@ -204,6 +204,33 @@ src/fltkDrawOgl.cpp.s:
 	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s
 .PHONY : src/fltkDrawOgl.cpp.s
 
+src/fltkDrawTableInfo.o: src/fltkDrawTableInfo.cpp.o
+
+.PHONY : src/fltkDrawTableInfo.o
+
+# target to build an object file
+src/fltkDrawTableInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o
+.PHONY : src/fltkDrawTableInfo.cpp.o
+
+src/fltkDrawTableInfo.i: src/fltkDrawTableInfo.cpp.i
+
+.PHONY : src/fltkDrawTableInfo.i
+
+# target to preprocess a source file
+src/fltkDrawTableInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.i
+.PHONY : src/fltkDrawTableInfo.cpp.i
+
+src/fltkDrawTableInfo.s: src/fltkDrawTableInfo.cpp.s
+
+.PHONY : src/fltkDrawTableInfo.s
+
+# target to generate assembly for a file
+src/fltkDrawTableInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.s
+.PHONY : src/fltkDrawTableInfo.cpp.s
+
 src/fltkLibrary.o: src/fltkLibrary.cpp.o
 
 .PHONY : src/fltkLibrary.o
@@ -303,6 +330,9 @@ help:
 	@echo "... src/fltkDrawOgl.o"
 	@echo "... src/fltkDrawOgl.i"
 	@echo "... src/fltkDrawOgl.s"
+	@echo "... src/fltkDrawTableInfo.o"
+	@echo "... src/fltkDrawTableInfo.i"
+	@echo "... src/fltkDrawTableInfo.s"
 	@echo "... src/fltkLibrary.o"
 	@echo "... src/fltkLibrary.i"
 	@echo "... src/fltkLibrary.s"

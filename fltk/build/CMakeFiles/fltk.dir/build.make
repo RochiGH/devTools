@@ -96,9 +96,22 @@ CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawOgl.cpp -o CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.s
 
+CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o: CMakeFiles/fltk.dir/flags.make
+CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o: ../src/fltkDrawTableInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawTableInfo.cpp
+
+CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawTableInfo.cpp > CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.i
+
+CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkDrawTableInfo.cpp -o CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.s
+
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o: CMakeFiles/fltk.dir/flags.make
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o: ../src/fltkLibrary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkLibrary.cpp
 
 CMakeFiles/fltk.dir/src/fltkLibrary.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/fltk.dir/src/fltkLibrary.cpp.s: cmake_force
 
 CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o: CMakeFiles/fltk.dir/flags.make
 CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o: ../src/fltkReadLogRTK.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/fltkReadLogRTK.cpp
 
 CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.s: cmake_force
 
 CMakeFiles/fltk.dir/src/gnNode.cpp.o: CMakeFiles/fltk.dir/flags.make
 CMakeFiles/fltk.dir/src/gnNode.cpp.o: ../src/gnNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fltk.dir/src/gnNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fltk.dir/src/gnNode.cpp.o"
 	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fltk.dir/src/gnNode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/src/gnNode.cpp
 
 CMakeFiles/fltk.dir/src/gnNode.cpp.i: cmake_force
@@ -140,6 +153,7 @@ fltk_OBJECTS = \
 "CMakeFiles/fltk.dir/src/fltk.cpp.o" \
 "CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o" \
 "CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o" \
+"CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o" \
 "CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o" \
 "CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o" \
 "CMakeFiles/fltk.dir/src/gnNode.cpp.o"
@@ -150,12 +164,13 @@ fltk_EXTERNAL_OBJECTS =
 fltk: CMakeFiles/fltk.dir/src/fltk.cpp.o
 fltk: CMakeFiles/fltk.dir/src/fltkDevTools.cpp.o
 fltk: CMakeFiles/fltk.dir/src/fltkDrawOgl.cpp.o
+fltk: CMakeFiles/fltk.dir/src/fltkDrawTableInfo.cpp.o
 fltk: CMakeFiles/fltk.dir/src/fltkLibrary.cpp.o
 fltk: CMakeFiles/fltk.dir/src/fltkReadLogRTK.cpp.o
 fltk: CMakeFiles/fltk.dir/src/gnNode.cpp.o
 fltk: CMakeFiles/fltk.dir/build.make
 fltk: CMakeFiles/fltk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable fltk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable fltk"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fltk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

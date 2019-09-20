@@ -1,8 +1,62 @@
 #include "../include/fltkDrawOgl.h"
 #include "../include/gnNode.h"
 
+vector<GnNode> gnPoints;
+vector<GnNode> gnRtk; 
 
-extern vector<GnNode> gnPoints;
+double agriBotSize = 20;
+double tiltFactor = -150.0;
+double startRowX = -700;
+double rowsize = 100;
+
+void initGn() {
+    // Draw working field graph 
+
+#ifdef CASTELLANI
+    Node L0 {10.57285563, 43.59387513};
+    Node H0 {10.57254472, 43.59468386};
+    Node L1 {10.57288571, 43.59388056};
+    Node H1 {10.57254472, 43.59468386};
+#endif
+    GnNode L0 {100 , 0, RTK, CENTER, 0, "TEST"};
+    gnRtk.push_back(L0);
+    GnNode H0 {100 + tiltFactor, 200, RTK, CENTER, 0, "TEST"};
+    gnRtk.push_back(H0);
+    GnNode L1 {200, -100, RTK, CENTER, 1, "TEST"};
+    gnRtk.push_back(L1);
+    GnNode H1 {200 + tiltFactor, 300, RTK, CENTER, 1, "TEST"};
+    gnRtk.push_back(H1);
+    GnNode L2 {300, -200, RTK, CENTER, 2, "TEST"};
+    gnRtk.push_back(L2);
+    GnNode H2 {300 + tiltFactor, 300, RTK, CENTER, 2, "TEST"};
+    gnRtk.push_back(H2);
+    GnNode L3 {400, 0, RTK, CENTER, 3, "TEST"};
+    gnRtk.push_back(L3);
+    GnNode H3 {400 + tiltFactor, 500, RTK, CENTER, 3, "TEST"};
+    gnRtk.push_back(H3);
+    GnNode L4 {500, 0, RTK, CENTER, 4, "TEST"};
+    gnRtk.push_back(L4);
+    GnNode H4 {500 + tiltFactor, 500, RTK, CENTER, 4, "TEST"};
+    gnRtk.push_back(H4);
+    GnNode L5 {600, 0, RTK, CENTER, 5, "TEST"};
+    gnRtk.push_back(L5);
+    GnNode H5 {600 + tiltFactor, 300, RTK, CENTER, 5, "TEST"};
+    gnRtk.push_back(H5);
+    GnNode L6 {900, -400, RTK, CENTER, 6, "TEST"};
+    gnRtk.push_back(L6);
+    GnNode H6 {900 + tiltFactor, 200, RTK, CENTER, 6 ,"TEST"};
+    gnRtk.push_back(H6);
+
+    int row = 0;
+    for (int i = 0; i < gnRtk.size() - 1; i+=2) {
+        if(tiltFactor >= 0) {
+            createGnPoints(gnRtk[i], gnRtk[i+1], row, agriBotSize);
+        } else {
+            createGnPoints(gnRtk[i+1], gnRtk[i], row, agriBotSize);
+        }
+        row++;
+    }
+}
 
 void createGnPoints(const GnNode& node1, const GnNode& node2, int row, int agriBotSize) {
     
@@ -40,6 +94,7 @@ void createGnPoints(const GnNode& node1, const GnNode& node2, int row, int agriB
         x8 = n3x - agriBotSize;
         y8 = - (1 / m) * ( x8 - n3x ) + n3y;
     } 
+    // TODO : missing parallel axes algorithm .
 
     GnNode LMR {x1, y1, 0 ,0, row, "LMR"};
     gnPoints.push_back(LMR);

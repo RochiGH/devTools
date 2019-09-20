@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp
+stdio.h
+-
+sqlite3.h
+-
+

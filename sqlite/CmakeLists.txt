@@ -1,0 +1,15 @@
+cmake_minimum_required (VERSION 2.6)
+project (sqlite)
+
+# specify the C++ standard
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# include_directories(/usr/include)
+# link_directories(/usr/lib)
+
+add_executable(sqlite sqlite.cpp)
+target_link_libraries(sqlite sqlite3)
+
+
+

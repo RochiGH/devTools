@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 enum side {CENTER, LEFT, RIGHT};
 enum type {RTK, ROW, ROWMAN, HOME};
 
@@ -18,4 +17,6 @@ public:
     };  
 };
 
+void initGn();
 void createGnPoints(const GnNode& node1, const GnNode& node2, int row, int agriBotSize);
+

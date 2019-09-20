@@ -4,10 +4,12 @@
 #include <algorithm>
 #include <cmath>
 
+#include "../include/gnNode.h"
 #include "../include/fltkLibrary.h"
 #include "../include/fltkDevTools.h"
 #include "../include/fltkDrawOgl.h"
 #include "../include/fltkReadLogRTK.h"
+#include "../include/fltkDrawTableInfo.h"
  
 using namespace std;
  
@@ -119,14 +121,19 @@ int fltkDrawStats() {
 // * Main Program Function * //
 
 int main() {
+   /* main test method */
+   char c;
+   initGn();
+   
+   // while(cin>>c)
+   while(true)
+   {
+      int test = fltkDrawDebugs();
+   }
 
-
-   // int a = fltkDrawTableInfo();
-   int b = fltkDrawOgl();
    // string rtkLogFile = "./rtklog.txt";
    // int c = fltkReadLogRTK(rtkLogFile);
    return 0;
-   
 }
 
 

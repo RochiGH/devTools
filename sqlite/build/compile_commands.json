@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build",
+  "command": "/usr/bin/clang++    -g   -std=gnu++11 -o CMakeFiles/sqlite.dir/sqlite.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp"
+}
+]

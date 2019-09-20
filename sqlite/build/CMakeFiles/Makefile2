@@ -44,21 +44,21 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/fltk.dir/all
+all: CMakeFiles/sqlite.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/fltk.dir/clean
+clean: CMakeFiles/sqlite.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/fltk.dir
+# Target rules for target CMakeFiles/sqlite.dir
 
 # All Build rule for target.
-CMakeFiles/fltk.dir/all:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/depend
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target fltk"
-.PHONY : CMakeFiles/fltk.dir/all
+CMakeFiles/sqlite.dir/all:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/depend
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=1,2 "Built target sqlite"
+.PHONY : CMakeFiles/sqlite.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fltk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/fltk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/devTools/fltk/build/CMakeFiles 0
-.PHONY : CMakeFiles/fltk.dir/rule
+CMakeFiles/sqlite.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sqlite.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles 0
+.PHONY : CMakeFiles/sqlite.dir/rule
 
 # Convenience name for target.
-fltk: CMakeFiles/fltk.dir/rule
+sqlite: CMakeFiles/sqlite.dir/rule
 
-.PHONY : fltk
+.PHONY : sqlite
 
 # clean rule for target.
-CMakeFiles/fltk.dir/clean:
-	$(MAKE) -f CMakeFiles/fltk.dir/build.make CMakeFiles/fltk.dir/clean
-.PHONY : CMakeFiles/fltk.dir/clean
+CMakeFiles/sqlite.dir/clean:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/clean
+.PHONY : CMakeFiles/sqlite.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
