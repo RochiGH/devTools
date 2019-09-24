@@ -1,7 +1,12 @@
 [
 {
   "directory": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build",
-  "command": "/usr/bin/clang++    -g   -std=gnu++11 -o CMakeFiles/sqlite.dir/sqlite.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp",
-  "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp"
+  "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/include  -g   -std=gnu++11 -o CMakeFiles/sqlite.dir/src/GnNode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/GnNode.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/GnNode.cpp"
+},
+{
+  "directory": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build",
+  "command": "/usr/bin/clang++   -I/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/include  -g   -std=gnu++11 -o CMakeFiles/sqlite.dir/src/sqlite.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp",
+  "file": "/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp"
 }
 ]

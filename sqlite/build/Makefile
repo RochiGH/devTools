@@ -123,32 +123,59 @@ sqlite/fast:
 	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/build
 .PHONY : sqlite/fast
 
-sqlite.o: sqlite.cpp.o
+src/GnNode.o: src/GnNode.cpp.o
 
-.PHONY : sqlite.o
+.PHONY : src/GnNode.o
 
 # target to build an object file
-sqlite.cpp.o:
-	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/sqlite.cpp.o
-.PHONY : sqlite.cpp.o
+src/GnNode.cpp.o:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/GnNode.cpp.o
+.PHONY : src/GnNode.cpp.o
 
-sqlite.i: sqlite.cpp.i
+src/GnNode.i: src/GnNode.cpp.i
 
-.PHONY : sqlite.i
+.PHONY : src/GnNode.i
 
 # target to preprocess a source file
-sqlite.cpp.i:
-	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/sqlite.cpp.i
-.PHONY : sqlite.cpp.i
+src/GnNode.cpp.i:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/GnNode.cpp.i
+.PHONY : src/GnNode.cpp.i
 
-sqlite.s: sqlite.cpp.s
+src/GnNode.s: src/GnNode.cpp.s
 
-.PHONY : sqlite.s
+.PHONY : src/GnNode.s
 
 # target to generate assembly for a file
-sqlite.cpp.s:
-	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/sqlite.cpp.s
-.PHONY : sqlite.cpp.s
+src/GnNode.cpp.s:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/GnNode.cpp.s
+.PHONY : src/GnNode.cpp.s
+
+src/sqlite.o: src/sqlite.cpp.o
+
+.PHONY : src/sqlite.o
+
+# target to build an object file
+src/sqlite.cpp.o:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/sqlite.cpp.o
+.PHONY : src/sqlite.cpp.o
+
+src/sqlite.i: src/sqlite.cpp.i
+
+.PHONY : src/sqlite.i
+
+# target to preprocess a source file
+src/sqlite.cpp.i:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/sqlite.cpp.i
+.PHONY : src/sqlite.cpp.i
+
+src/sqlite.s: src/sqlite.cpp.s
+
+.PHONY : src/sqlite.s
+
+# target to generate assembly for a file
+src/sqlite.cpp.s:
+	$(MAKE) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/src/sqlite.cpp.s
+.PHONY : src/sqlite.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sqlite"
-	@echo "... sqlite.o"
-	@echo "... sqlite.i"
-	@echo "... sqlite.s"
+	@echo "... src/GnNode.o"
+	@echo "... src/GnNode.i"
+	@echo "... src/GnNode.s"
+	@echo "... src/sqlite.o"
+	@echo "... src/sqlite.i"
+	@echo "... src/sqlite.s"
 .PHONY : help
 
 

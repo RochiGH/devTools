@@ -6,9 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/include/GnNode.h
+iostream
+-
+thread
+-
+random
+-
+algorithm
+-
+cmath
+-
+vector
+-
+../libgraph/include/Node.h
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/libgraph/include/Node.h
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/libgraph/include/Node.h
+string
+-
+list
+-
+
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp
 stdio.h
 -
 sqlite3.h
 -
+../include/GnNode.h
+/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/include/GnNode.h
 

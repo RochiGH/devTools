@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sqlite.dir/sqlite.cpp.o"
+  "CMakeFiles/sqlite.dir/src/GnNode.cpp.o"
+  "CMakeFiles/sqlite.dir/src/sqlite.cpp.o"
   "sqlite"
   "sqlite.pdb"
 )

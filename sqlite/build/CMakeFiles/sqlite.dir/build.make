@@ -57,30 +57,45 @@ include CMakeFiles/sqlite.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sqlite.dir/flags.make
 
-CMakeFiles/sqlite.dir/sqlite.cpp.o: CMakeFiles/sqlite.dir/flags.make
-CMakeFiles/sqlite.dir/sqlite.cpp.o: ../sqlite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sqlite.dir/sqlite.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sqlite.dir/sqlite.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp
+CMakeFiles/sqlite.dir/src/GnNode.cpp.o: CMakeFiles/sqlite.dir/flags.make
+CMakeFiles/sqlite.dir/src/GnNode.cpp.o: ../src/GnNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sqlite.dir/src/GnNode.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sqlite.dir/src/GnNode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/GnNode.cpp
 
-CMakeFiles/sqlite.dir/sqlite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sqlite.dir/sqlite.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp > CMakeFiles/sqlite.dir/sqlite.cpp.i
+CMakeFiles/sqlite.dir/src/GnNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sqlite.dir/src/GnNode.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/GnNode.cpp > CMakeFiles/sqlite.dir/src/GnNode.cpp.i
 
-CMakeFiles/sqlite.dir/sqlite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sqlite.dir/sqlite.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/sqlite.cpp -o CMakeFiles/sqlite.dir/sqlite.cpp.s
+CMakeFiles/sqlite.dir/src/GnNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sqlite.dir/src/GnNode.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/GnNode.cpp -o CMakeFiles/sqlite.dir/src/GnNode.cpp.s
+
+CMakeFiles/sqlite.dir/src/sqlite.cpp.o: CMakeFiles/sqlite.dir/flags.make
+CMakeFiles/sqlite.dir/src/sqlite.cpp.o: ../src/sqlite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sqlite.dir/src/sqlite.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sqlite.dir/src/sqlite.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp
+
+CMakeFiles/sqlite.dir/src/sqlite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sqlite.dir/src/sqlite.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp > CMakeFiles/sqlite.dir/src/sqlite.cpp.i
+
+CMakeFiles/sqlite.dir/src/sqlite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sqlite.dir/src/sqlite.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/src/sqlite.cpp -o CMakeFiles/sqlite.dir/src/sqlite.cpp.s
 
 # Object files for target sqlite
 sqlite_OBJECTS = \
-"CMakeFiles/sqlite.dir/sqlite.cpp.o"
+"CMakeFiles/sqlite.dir/src/GnNode.cpp.o" \
+"CMakeFiles/sqlite.dir/src/sqlite.cpp.o"
 
 # External object files for target sqlite
 sqlite_EXTERNAL_OBJECTS =
 
-sqlite: CMakeFiles/sqlite.dir/sqlite.cpp.o
+sqlite: CMakeFiles/sqlite.dir/src/GnNode.cpp.o
+sqlite: CMakeFiles/sqlite.dir/src/sqlite.cpp.o
 sqlite: CMakeFiles/sqlite.dir/build.make
 sqlite: CMakeFiles/sqlite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sqlite"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/devTools/sqlite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sqlite"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sqlite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
