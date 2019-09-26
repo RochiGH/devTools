@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Utility rule file for ContinuousMemCheck.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
 include json/CMakeFiles/ContinuousMemCheck.dir/progress.make
 
 json/CMakeFiles/ContinuousMemCheck:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ContinuousMemCheck
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ContinuousMemCheck
 
 ContinuousMemCheck: json/CMakeFiles/ContinuousMemCheck
 ContinuousMemCheck: json/CMakeFiles/ContinuousMemCheck.dir/build.make
@@ -67,10 +67,10 @@ json/CMakeFiles/ContinuousMemCheck.dir/build: ContinuousMemCheck
 .PHONY : json/CMakeFiles/ContinuousMemCheck.dir/build
 
 json/CMakeFiles/ContinuousMemCheck.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake
 .PHONY : json/CMakeFiles/ContinuousMemCheck.dir/clean
 
 json/CMakeFiles/ContinuousMemCheck.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/CMakeFiles/ContinuousMemCheck.dir/depend
 

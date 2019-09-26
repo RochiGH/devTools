@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Include any dependencies generated for this target.
 include json/test/CMakeFiles/test-ubjson.dir/depend.make
@@ -59,16 +59,16 @@ include json/test/CMakeFiles/test-ubjson.dir/flags.make
 
 json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o: json/test/CMakeFiles/test-ubjson.dir/flags.make
 json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o: ../json/test/src/unit-ubjson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-ubjson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-ubjson.cpp
 
 json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-ubjson.cpp > CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-ubjson.cpp > CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i
 
 json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-ubjson.cpp -o CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-ubjson.cpp -o CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s
 
 # Object files for target test-ubjson
 test__ubjson_OBJECTS = \
@@ -76,14 +76,14 @@ test__ubjson_OBJECTS = \
 
 # External object files for target test-ubjson
 test__ubjson_EXTERNAL_OBJECTS = \
-"/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
+"/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
 
 json/test/test-ubjson: json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o
 json/test/test-ubjson: json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
 json/test/test-ubjson: json/test/CMakeFiles/test-ubjson.dir/build.make
 json/test/test-ubjson: json/test/CMakeFiles/test-ubjson.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-ubjson"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-ubjson.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-ubjson"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-ubjson.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 json/test/CMakeFiles/test-ubjson.dir/build: json/test/test-ubjson
@@ -91,10 +91,10 @@ json/test/CMakeFiles/test-ubjson.dir/build: json/test/test-ubjson
 .PHONY : json/test/CMakeFiles/test-ubjson.dir/build
 
 json/test/CMakeFiles/test-ubjson.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-ubjson.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-ubjson.dir/cmake_clean.cmake
 .PHONY : json/test/CMakeFiles/test-ubjson.dir/clean
 
 json/test/CMakeFiles/test-ubjson.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/test-ubjson.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/test-ubjson.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/test/CMakeFiles/test-ubjson.dir/depend
 

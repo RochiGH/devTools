@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Utility rule file for ExperimentalTest.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
 include json/CMakeFiles/ExperimentalTest.dir/progress.make
 
 json/CMakeFiles/ExperimentalTest:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ExperimentalTest
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ExperimentalTest
 
 ExperimentalTest: json/CMakeFiles/ExperimentalTest
 ExperimentalTest: json/CMakeFiles/ExperimentalTest.dir/build.make
@@ -67,10 +67,10 @@ json/CMakeFiles/ExperimentalTest.dir/build: ExperimentalTest
 .PHONY : json/CMakeFiles/ExperimentalTest.dir/build
 
 json/CMakeFiles/ExperimentalTest.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake
 .PHONY : json/CMakeFiles/ExperimentalTest.dir/clean
 
 json/CMakeFiles/ExperimentalTest.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/CMakeFiles/ExperimentalTest.dir/depend
 

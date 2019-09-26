@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-json_pointer.cpp" "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.o"
+  "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-json_pointer.cpp" "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

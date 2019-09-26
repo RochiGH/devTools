@@ -1,4 +1,4 @@
-# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/cmake_import_minver
+# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/cmake_import_minver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

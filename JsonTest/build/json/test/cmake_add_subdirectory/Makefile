@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/cmake_add_subdirectory/CMakeFiles/progress.marks
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/cmake_add_subdirectory/CMakeFiles/progress.marks
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/clean
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/cmake_add_subdirectory/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

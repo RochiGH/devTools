@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/include -I/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/thirdparty/doctest 
+CXX_INCLUDES = -I/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/include -I/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/thirdparty/doctest 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/cmake_install.cmake")
+  include("/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

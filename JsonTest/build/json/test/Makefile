@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/progress.marks
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/progress.marks
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/clean
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 json/test/CMakeFiles/test-items.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-items.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-items.dir/rule
 .PHONY : json/test/CMakeFiles/test-items.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ test-items: json/test/CMakeFiles/test-items.dir/rule
 
 # fast build rule for target.
 test-items/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/build
 .PHONY : test-items/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-unicode.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-unicode.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-unicode.dir/rule
 .PHONY : json/test/CMakeFiles/test-unicode.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ test-unicode: json/test/CMakeFiles/test-unicode.dir/rule
 
 # fast build rule for target.
 test-unicode/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/build
 .PHONY : test-unicode/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-reference_access.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-reference_access.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-reference_access.dir/rule
 .PHONY : json/test/CMakeFiles/test-reference_access.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ test-reference_access: json/test/CMakeFiles/test-reference_access.dir/rule
 
 # fast build rule for target.
 test-reference_access/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/build
 .PHONY : test-reference_access/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-udt.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-udt.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-udt.dir/rule
 .PHONY : json/test/CMakeFiles/test-udt.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ test-udt: json/test/CMakeFiles/test-udt.dir/rule
 
 # fast build rule for target.
 test-udt/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/build
 .PHONY : test-udt/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-pointer_access.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-pointer_access.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-pointer_access.dir/rule
 .PHONY : json/test/CMakeFiles/test-pointer_access.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ test-pointer_access: json/test/CMakeFiles/test-pointer_access.dir/rule
 
 # fast build rule for target.
 test-pointer_access/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/build
 .PHONY : test-pointer_access/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-modifiers.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-modifiers.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-modifiers.dir/rule
 .PHONY : json/test/CMakeFiles/test-modifiers.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ test-modifiers: json/test/CMakeFiles/test-modifiers.dir/rule
 
 # fast build rule for target.
 test-modifiers/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/build
 .PHONY : test-modifiers/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-readme.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-readme.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-readme.dir/rule
 .PHONY : json/test/CMakeFiles/test-readme.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ test-readme: json/test/CMakeFiles/test-readme.dir/rule
 
 # fast build rule for target.
 test-readme/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/build
 .PHONY : test-readme/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/doctest_main.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/doctest_main.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/doctest_main.dir/rule
 .PHONY : json/test/CMakeFiles/doctest_main.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ doctest_main: json/test/CMakeFiles/doctest_main.dir/rule
 
 # fast build rule for target.
 doctest_main/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/build
 .PHONY : doctest_main/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-meta.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-meta.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-meta.dir/rule
 .PHONY : json/test/CMakeFiles/test-meta.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ test-meta: json/test/CMakeFiles/test-meta.dir/rule
 
 # fast build rule for target.
 test-meta/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/build
 .PHONY : test-meta/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-merge_patch.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-merge_patch.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-merge_patch.dir/rule
 .PHONY : json/test/CMakeFiles/test-merge_patch.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ test-merge_patch: json/test/CMakeFiles/test-merge_patch.dir/rule
 
 # fast build rule for target.
 test-merge_patch/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/build
 .PHONY : test-merge_patch/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-json_pointer.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-json_pointer.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-json_pointer.dir/rule
 .PHONY : json/test/CMakeFiles/test-json_pointer.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ test-json_pointer: json/test/CMakeFiles/test-json_pointer.dir/rule
 
 # fast build rule for target.
 test-json_pointer/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/build
 .PHONY : test-json_pointer/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-to_chars.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-to_chars.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-to_chars.dir/rule
 .PHONY : json/test/CMakeFiles/test-to_chars.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ test-to_chars: json/test/CMakeFiles/test-to_chars.dir/rule
 
 # fast build rule for target.
 test-to_chars/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/build
 .PHONY : test-to_chars/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-iterators2.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-iterators2.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-iterators2.dir/rule
 .PHONY : json/test/CMakeFiles/test-iterators2.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ test-iterators2: json/test/CMakeFiles/test-iterators2.dir/rule
 
 # fast build rule for target.
 test-iterators2/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/build
 .PHONY : test-iterators2/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-iterators1.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-iterators1.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-iterators1.dir/rule
 .PHONY : json/test/CMakeFiles/test-iterators1.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ test-iterators1: json/test/CMakeFiles/test-iterators1.dir/rule
 
 # fast build rule for target.
 test-iterators1/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/build
 .PHONY : test-iterators1/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-wstring.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-wstring.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-wstring.dir/rule
 .PHONY : json/test/CMakeFiles/test-wstring.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ test-wstring: json/test/CMakeFiles/test-wstring.dir/rule
 
 # fast build rule for target.
 test-wstring/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/build
 .PHONY : test-wstring/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-testsuites.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-testsuites.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-testsuites.dir/rule
 .PHONY : json/test/CMakeFiles/test-testsuites.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ test-testsuites: json/test/CMakeFiles/test-testsuites.dir/rule
 
 # fast build rule for target.
 test-testsuites/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/build
 .PHONY : test-testsuites/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-constructor2.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-constructor2.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-constructor2.dir/rule
 .PHONY : json/test/CMakeFiles/test-constructor2.dir/rule
 
 # Convenience name for target.
@@ -408,12 +408,12 @@ test-constructor2: json/test/CMakeFiles/test-constructor2.dir/rule
 
 # fast build rule for target.
 test-constructor2/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/build
 .PHONY : test-constructor2/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-deserialization.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-deserialization.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-deserialization.dir/rule
 .PHONY : json/test/CMakeFiles/test-deserialization.dir/rule
 
 # Convenience name for target.
@@ -423,12 +423,12 @@ test-deserialization: json/test/CMakeFiles/test-deserialization.dir/rule
 
 # fast build rule for target.
 test-deserialization/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/build
 .PHONY : test-deserialization/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-cbor.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-cbor.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-cbor.dir/rule
 .PHONY : json/test/CMakeFiles/test-cbor.dir/rule
 
 # Convenience name for target.
@@ -438,12 +438,12 @@ test-cbor: json/test/CMakeFiles/test-cbor.dir/rule
 
 # fast build rule for target.
 test-cbor/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/build
 .PHONY : test-cbor/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-inspection.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-inspection.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-inspection.dir/rule
 .PHONY : json/test/CMakeFiles/test-inspection.dir/rule
 
 # Convenience name for target.
@@ -453,12 +453,12 @@ test-inspection: json/test/CMakeFiles/test-inspection.dir/rule
 
 # fast build rule for target.
 test-inspection/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/build
 .PHONY : test-inspection/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-msgpack.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-msgpack.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-msgpack.dir/rule
 .PHONY : json/test/CMakeFiles/test-msgpack.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ test-msgpack: json/test/CMakeFiles/test-msgpack.dir/rule
 
 # fast build rule for target.
 test-msgpack/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/build
 .PHONY : test-msgpack/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-conversions.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-conversions.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-conversions.dir/rule
 .PHONY : json/test/CMakeFiles/test-conversions.dir/rule
 
 # Convenience name for target.
@@ -483,12 +483,12 @@ test-conversions: json/test/CMakeFiles/test-conversions.dir/rule
 
 # fast build rule for target.
 test-conversions/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/build
 .PHONY : test-conversions/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-alt-string.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-alt-string.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-alt-string.dir/rule
 .PHONY : json/test/CMakeFiles/test-alt-string.dir/rule
 
 # Convenience name for target.
@@ -498,12 +498,12 @@ test-alt-string: json/test/CMakeFiles/test-alt-string.dir/rule
 
 # fast build rule for target.
 test-alt-string/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/build
 .PHONY : test-alt-string/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-comparison.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-comparison.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-comparison.dir/rule
 .PHONY : json/test/CMakeFiles/test-comparison.dir/rule
 
 # Convenience name for target.
@@ -513,12 +513,12 @@ test-comparison: json/test/CMakeFiles/test-comparison.dir/rule
 
 # fast build rule for target.
 test-comparison/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/build
 .PHONY : test-comparison/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-json_patch.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-json_patch.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-json_patch.dir/rule
 .PHONY : json/test/CMakeFiles/test-json_patch.dir/rule
 
 # Convenience name for target.
@@ -528,12 +528,12 @@ test-json_patch: json/test/CMakeFiles/test-json_patch.dir/rule
 
 # fast build rule for target.
 test-json_patch/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/build
 .PHONY : test-json_patch/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-concepts.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-concepts.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-concepts.dir/rule
 .PHONY : json/test/CMakeFiles/test-concepts.dir/rule
 
 # Convenience name for target.
@@ -543,12 +543,12 @@ test-concepts: json/test/CMakeFiles/test-concepts.dir/rule
 
 # fast build rule for target.
 test-concepts/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/build
 .PHONY : test-concepts/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-class_const_iterator.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_const_iterator.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_const_iterator.dir/rule
 .PHONY : json/test/CMakeFiles/test-class_const_iterator.dir/rule
 
 # Convenience name for target.
@@ -558,12 +558,12 @@ test-class_const_iterator: json/test/CMakeFiles/test-class_const_iterator.dir/ru
 
 # fast build rule for target.
 test-class_const_iterator/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/build
 .PHONY : test-class_const_iterator/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-bson.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-bson.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-bson.dir/rule
 .PHONY : json/test/CMakeFiles/test-bson.dir/rule
 
 # Convenience name for target.
@@ -573,12 +573,12 @@ test-bson: json/test/CMakeFiles/test-bson.dir/rule
 
 # fast build rule for target.
 test-bson/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/build
 .PHONY : test-bson/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-class_parser.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_parser.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_parser.dir/rule
 .PHONY : json/test/CMakeFiles/test-class_parser.dir/rule
 
 # Convenience name for target.
@@ -588,12 +588,12 @@ test-class_parser: json/test/CMakeFiles/test-class_parser.dir/rule
 
 # fast build rule for target.
 test-class_parser/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/build
 .PHONY : test-class_parser/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-element_access1.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-element_access1.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-element_access1.dir/rule
 .PHONY : json/test/CMakeFiles/test-element_access1.dir/rule
 
 # Convenience name for target.
@@ -603,12 +603,12 @@ test-element_access1: json/test/CMakeFiles/test-element_access1.dir/rule
 
 # fast build rule for target.
 test-element_access1/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/build
 .PHONY : test-element_access1/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-ubjson.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-ubjson.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-ubjson.dir/rule
 .PHONY : json/test/CMakeFiles/test-ubjson.dir/rule
 
 # Convenience name for target.
@@ -618,12 +618,12 @@ test-ubjson: json/test/CMakeFiles/test-ubjson.dir/rule
 
 # fast build rule for target.
 test-ubjson/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/build
 .PHONY : test-ubjson/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-noexcept.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-noexcept.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-noexcept.dir/rule
 .PHONY : json/test/CMakeFiles/test-noexcept.dir/rule
 
 # Convenience name for target.
@@ -633,12 +633,12 @@ test-noexcept: json/test/CMakeFiles/test-noexcept.dir/rule
 
 # fast build rule for target.
 test-noexcept/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/build
 .PHONY : test-noexcept/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-serialization.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-serialization.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-serialization.dir/rule
 .PHONY : json/test/CMakeFiles/test-serialization.dir/rule
 
 # Convenience name for target.
@@ -648,12 +648,12 @@ test-serialization: json/test/CMakeFiles/test-serialization.dir/rule
 
 # fast build rule for target.
 test-serialization/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/build
 .PHONY : test-serialization/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-element_access2.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-element_access2.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-element_access2.dir/rule
 .PHONY : json/test/CMakeFiles/test-element_access2.dir/rule
 
 # Convenience name for target.
@@ -663,12 +663,12 @@ test-element_access2: json/test/CMakeFiles/test-element_access2.dir/rule
 
 # fast build rule for target.
 test-element_access2/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/build
 .PHONY : test-element_access2/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-class_iterator.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_iterator.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_iterator.dir/rule
 .PHONY : json/test/CMakeFiles/test-class_iterator.dir/rule
 
 # Convenience name for target.
@@ -678,12 +678,12 @@ test-class_iterator: json/test/CMakeFiles/test-class_iterator.dir/rule
 
 # fast build rule for target.
 test-class_iterator/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/build
 .PHONY : test-class_iterator/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-allocator.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-allocator.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-allocator.dir/rule
 .PHONY : json/test/CMakeFiles/test-allocator.dir/rule
 
 # Convenience name for target.
@@ -693,12 +693,12 @@ test-allocator: json/test/CMakeFiles/test-allocator.dir/rule
 
 # fast build rule for target.
 test-allocator/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/build
 .PHONY : test-allocator/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-regression.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-regression.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-regression.dir/rule
 .PHONY : json/test/CMakeFiles/test-regression.dir/rule
 
 # Convenience name for target.
@@ -708,12 +708,12 @@ test-regression: json/test/CMakeFiles/test-regression.dir/rule
 
 # fast build rule for target.
 test-regression/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/build
 .PHONY : test-regression/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-constructor1.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-constructor1.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-constructor1.dir/rule
 .PHONY : json/test/CMakeFiles/test-constructor1.dir/rule
 
 # Convenience name for target.
@@ -723,12 +723,12 @@ test-constructor1: json/test/CMakeFiles/test-constructor1.dir/rule
 
 # fast build rule for target.
 test-constructor1/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/build
 .PHONY : test-constructor1/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-capacity.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-capacity.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-capacity.dir/rule
 .PHONY : json/test/CMakeFiles/test-capacity.dir/rule
 
 # Convenience name for target.
@@ -738,12 +738,12 @@ test-capacity: json/test/CMakeFiles/test-capacity.dir/rule
 
 # fast build rule for target.
 test-capacity/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/build
 .PHONY : test-capacity/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-convenience.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-convenience.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-convenience.dir/rule
 .PHONY : json/test/CMakeFiles/test-convenience.dir/rule
 
 # Convenience name for target.
@@ -753,12 +753,12 @@ test-convenience: json/test/CMakeFiles/test-convenience.dir/rule
 
 # fast build rule for target.
 test-convenience/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/build
 .PHONY : test-convenience/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-class_lexer.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_lexer.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-class_lexer.dir/rule
 .PHONY : json/test/CMakeFiles/test-class_lexer.dir/rule
 
 # Convenience name for target.
@@ -768,12 +768,12 @@ test-class_lexer: json/test/CMakeFiles/test-class_lexer.dir/rule
 
 # fast build rule for target.
 test-class_lexer/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/build
 .PHONY : test-class_lexer/fast
 
 # Convenience name for target.
 json/test/CMakeFiles/test-algorithms.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-algorithms.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/test/CMakeFiles/test-algorithms.dir/rule
 .PHONY : json/test/CMakeFiles/test-algorithms.dir/rule
 
 # Convenience name for target.
@@ -783,7 +783,7 @@ test-algorithms: json/test/CMakeFiles/test-algorithms.dir/rule
 
 # fast build rule for target.
 test-algorithms/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/build
 .PHONY : test-algorithms/fast
 
 src/unit-algorithms.o: src/unit-algorithms.cpp.o
@@ -792,7 +792,7 @@ src/unit-algorithms.o: src/unit-algorithms.cpp.o
 
 # target to build an object file
 src/unit-algorithms.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.o
 .PHONY : src/unit-algorithms.cpp.o
 
 src/unit-algorithms.i: src/unit-algorithms.cpp.i
@@ -801,7 +801,7 @@ src/unit-algorithms.i: src/unit-algorithms.cpp.i
 
 # target to preprocess a source file
 src/unit-algorithms.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.i
 .PHONY : src/unit-algorithms.cpp.i
 
 src/unit-algorithms.s: src/unit-algorithms.cpp.s
@@ -810,7 +810,7 @@ src/unit-algorithms.s: src/unit-algorithms.cpp.s
 
 # target to generate assembly for a file
 src/unit-algorithms.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-algorithms.dir/build.make json/test/CMakeFiles/test-algorithms.dir/src/unit-algorithms.cpp.s
 .PHONY : src/unit-algorithms.cpp.s
 
 src/unit-allocator.o: src/unit-allocator.cpp.o
@@ -819,7 +819,7 @@ src/unit-allocator.o: src/unit-allocator.cpp.o
 
 # target to build an object file
 src/unit-allocator.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.o
 .PHONY : src/unit-allocator.cpp.o
 
 src/unit-allocator.i: src/unit-allocator.cpp.i
@@ -828,7 +828,7 @@ src/unit-allocator.i: src/unit-allocator.cpp.i
 
 # target to preprocess a source file
 src/unit-allocator.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.i
 .PHONY : src/unit-allocator.cpp.i
 
 src/unit-allocator.s: src/unit-allocator.cpp.s
@@ -837,7 +837,7 @@ src/unit-allocator.s: src/unit-allocator.cpp.s
 
 # target to generate assembly for a file
 src/unit-allocator.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-allocator.dir/build.make json/test/CMakeFiles/test-allocator.dir/src/unit-allocator.cpp.s
 .PHONY : src/unit-allocator.cpp.s
 
 src/unit-alt-string.o: src/unit-alt-string.cpp.o
@@ -846,7 +846,7 @@ src/unit-alt-string.o: src/unit-alt-string.cpp.o
 
 # target to build an object file
 src/unit-alt-string.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.o
 .PHONY : src/unit-alt-string.cpp.o
 
 src/unit-alt-string.i: src/unit-alt-string.cpp.i
@@ -855,7 +855,7 @@ src/unit-alt-string.i: src/unit-alt-string.cpp.i
 
 # target to preprocess a source file
 src/unit-alt-string.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.i
 .PHONY : src/unit-alt-string.cpp.i
 
 src/unit-alt-string.s: src/unit-alt-string.cpp.s
@@ -864,7 +864,7 @@ src/unit-alt-string.s: src/unit-alt-string.cpp.s
 
 # target to generate assembly for a file
 src/unit-alt-string.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-alt-string.dir/build.make json/test/CMakeFiles/test-alt-string.dir/src/unit-alt-string.cpp.s
 .PHONY : src/unit-alt-string.cpp.s
 
 src/unit-bson.o: src/unit-bson.cpp.o
@@ -873,7 +873,7 @@ src/unit-bson.o: src/unit-bson.cpp.o
 
 # target to build an object file
 src/unit-bson.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.o
 .PHONY : src/unit-bson.cpp.o
 
 src/unit-bson.i: src/unit-bson.cpp.i
@@ -882,7 +882,7 @@ src/unit-bson.i: src/unit-bson.cpp.i
 
 # target to preprocess a source file
 src/unit-bson.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.i
 .PHONY : src/unit-bson.cpp.i
 
 src/unit-bson.s: src/unit-bson.cpp.s
@@ -891,7 +891,7 @@ src/unit-bson.s: src/unit-bson.cpp.s
 
 # target to generate assembly for a file
 src/unit-bson.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-bson.dir/build.make json/test/CMakeFiles/test-bson.dir/src/unit-bson.cpp.s
 .PHONY : src/unit-bson.cpp.s
 
 src/unit-capacity.o: src/unit-capacity.cpp.o
@@ -900,7 +900,7 @@ src/unit-capacity.o: src/unit-capacity.cpp.o
 
 # target to build an object file
 src/unit-capacity.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.o
 .PHONY : src/unit-capacity.cpp.o
 
 src/unit-capacity.i: src/unit-capacity.cpp.i
@@ -909,7 +909,7 @@ src/unit-capacity.i: src/unit-capacity.cpp.i
 
 # target to preprocess a source file
 src/unit-capacity.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.i
 .PHONY : src/unit-capacity.cpp.i
 
 src/unit-capacity.s: src/unit-capacity.cpp.s
@@ -918,7 +918,7 @@ src/unit-capacity.s: src/unit-capacity.cpp.s
 
 # target to generate assembly for a file
 src/unit-capacity.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-capacity.dir/build.make json/test/CMakeFiles/test-capacity.dir/src/unit-capacity.cpp.s
 .PHONY : src/unit-capacity.cpp.s
 
 src/unit-cbor.o: src/unit-cbor.cpp.o
@@ -927,7 +927,7 @@ src/unit-cbor.o: src/unit-cbor.cpp.o
 
 # target to build an object file
 src/unit-cbor.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.o
 .PHONY : src/unit-cbor.cpp.o
 
 src/unit-cbor.i: src/unit-cbor.cpp.i
@@ -936,7 +936,7 @@ src/unit-cbor.i: src/unit-cbor.cpp.i
 
 # target to preprocess a source file
 src/unit-cbor.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.i
 .PHONY : src/unit-cbor.cpp.i
 
 src/unit-cbor.s: src/unit-cbor.cpp.s
@@ -945,7 +945,7 @@ src/unit-cbor.s: src/unit-cbor.cpp.s
 
 # target to generate assembly for a file
 src/unit-cbor.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-cbor.dir/build.make json/test/CMakeFiles/test-cbor.dir/src/unit-cbor.cpp.s
 .PHONY : src/unit-cbor.cpp.s
 
 src/unit-class_const_iterator.o: src/unit-class_const_iterator.cpp.o
@@ -954,7 +954,7 @@ src/unit-class_const_iterator.o: src/unit-class_const_iterator.cpp.o
 
 # target to build an object file
 src/unit-class_const_iterator.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.o
 .PHONY : src/unit-class_const_iterator.cpp.o
 
 src/unit-class_const_iterator.i: src/unit-class_const_iterator.cpp.i
@@ -963,7 +963,7 @@ src/unit-class_const_iterator.i: src/unit-class_const_iterator.cpp.i
 
 # target to preprocess a source file
 src/unit-class_const_iterator.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.i
 .PHONY : src/unit-class_const_iterator.cpp.i
 
 src/unit-class_const_iterator.s: src/unit-class_const_iterator.cpp.s
@@ -972,7 +972,7 @@ src/unit-class_const_iterator.s: src/unit-class_const_iterator.cpp.s
 
 # target to generate assembly for a file
 src/unit-class_const_iterator.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_const_iterator.dir/build.make json/test/CMakeFiles/test-class_const_iterator.dir/src/unit-class_const_iterator.cpp.s
 .PHONY : src/unit-class_const_iterator.cpp.s
 
 src/unit-class_iterator.o: src/unit-class_iterator.cpp.o
@@ -981,7 +981,7 @@ src/unit-class_iterator.o: src/unit-class_iterator.cpp.o
 
 # target to build an object file
 src/unit-class_iterator.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.o
 .PHONY : src/unit-class_iterator.cpp.o
 
 src/unit-class_iterator.i: src/unit-class_iterator.cpp.i
@@ -990,7 +990,7 @@ src/unit-class_iterator.i: src/unit-class_iterator.cpp.i
 
 # target to preprocess a source file
 src/unit-class_iterator.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.i
 .PHONY : src/unit-class_iterator.cpp.i
 
 src/unit-class_iterator.s: src/unit-class_iterator.cpp.s
@@ -999,7 +999,7 @@ src/unit-class_iterator.s: src/unit-class_iterator.cpp.s
 
 # target to generate assembly for a file
 src/unit-class_iterator.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_iterator.dir/build.make json/test/CMakeFiles/test-class_iterator.dir/src/unit-class_iterator.cpp.s
 .PHONY : src/unit-class_iterator.cpp.s
 
 src/unit-class_lexer.o: src/unit-class_lexer.cpp.o
@@ -1008,7 +1008,7 @@ src/unit-class_lexer.o: src/unit-class_lexer.cpp.o
 
 # target to build an object file
 src/unit-class_lexer.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.o
 .PHONY : src/unit-class_lexer.cpp.o
 
 src/unit-class_lexer.i: src/unit-class_lexer.cpp.i
@@ -1017,7 +1017,7 @@ src/unit-class_lexer.i: src/unit-class_lexer.cpp.i
 
 # target to preprocess a source file
 src/unit-class_lexer.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.i
 .PHONY : src/unit-class_lexer.cpp.i
 
 src/unit-class_lexer.s: src/unit-class_lexer.cpp.s
@@ -1026,7 +1026,7 @@ src/unit-class_lexer.s: src/unit-class_lexer.cpp.s
 
 # target to generate assembly for a file
 src/unit-class_lexer.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_lexer.dir/build.make json/test/CMakeFiles/test-class_lexer.dir/src/unit-class_lexer.cpp.s
 .PHONY : src/unit-class_lexer.cpp.s
 
 src/unit-class_parser.o: src/unit-class_parser.cpp.o
@@ -1035,7 +1035,7 @@ src/unit-class_parser.o: src/unit-class_parser.cpp.o
 
 # target to build an object file
 src/unit-class_parser.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.o
 .PHONY : src/unit-class_parser.cpp.o
 
 src/unit-class_parser.i: src/unit-class_parser.cpp.i
@@ -1044,7 +1044,7 @@ src/unit-class_parser.i: src/unit-class_parser.cpp.i
 
 # target to preprocess a source file
 src/unit-class_parser.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.i
 .PHONY : src/unit-class_parser.cpp.i
 
 src/unit-class_parser.s: src/unit-class_parser.cpp.s
@@ -1053,7 +1053,7 @@ src/unit-class_parser.s: src/unit-class_parser.cpp.s
 
 # target to generate assembly for a file
 src/unit-class_parser.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-class_parser.dir/build.make json/test/CMakeFiles/test-class_parser.dir/src/unit-class_parser.cpp.s
 .PHONY : src/unit-class_parser.cpp.s
 
 src/unit-comparison.o: src/unit-comparison.cpp.o
@@ -1062,7 +1062,7 @@ src/unit-comparison.o: src/unit-comparison.cpp.o
 
 # target to build an object file
 src/unit-comparison.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.o
 .PHONY : src/unit-comparison.cpp.o
 
 src/unit-comparison.i: src/unit-comparison.cpp.i
@@ -1071,7 +1071,7 @@ src/unit-comparison.i: src/unit-comparison.cpp.i
 
 # target to preprocess a source file
 src/unit-comparison.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.i
 .PHONY : src/unit-comparison.cpp.i
 
 src/unit-comparison.s: src/unit-comparison.cpp.s
@@ -1080,7 +1080,7 @@ src/unit-comparison.s: src/unit-comparison.cpp.s
 
 # target to generate assembly for a file
 src/unit-comparison.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-comparison.dir/build.make json/test/CMakeFiles/test-comparison.dir/src/unit-comparison.cpp.s
 .PHONY : src/unit-comparison.cpp.s
 
 src/unit-concepts.o: src/unit-concepts.cpp.o
@@ -1089,7 +1089,7 @@ src/unit-concepts.o: src/unit-concepts.cpp.o
 
 # target to build an object file
 src/unit-concepts.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.o
 .PHONY : src/unit-concepts.cpp.o
 
 src/unit-concepts.i: src/unit-concepts.cpp.i
@@ -1098,7 +1098,7 @@ src/unit-concepts.i: src/unit-concepts.cpp.i
 
 # target to preprocess a source file
 src/unit-concepts.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.i
 .PHONY : src/unit-concepts.cpp.i
 
 src/unit-concepts.s: src/unit-concepts.cpp.s
@@ -1107,7 +1107,7 @@ src/unit-concepts.s: src/unit-concepts.cpp.s
 
 # target to generate assembly for a file
 src/unit-concepts.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-concepts.dir/build.make json/test/CMakeFiles/test-concepts.dir/src/unit-concepts.cpp.s
 .PHONY : src/unit-concepts.cpp.s
 
 src/unit-constructor1.o: src/unit-constructor1.cpp.o
@@ -1116,7 +1116,7 @@ src/unit-constructor1.o: src/unit-constructor1.cpp.o
 
 # target to build an object file
 src/unit-constructor1.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.o
 .PHONY : src/unit-constructor1.cpp.o
 
 src/unit-constructor1.i: src/unit-constructor1.cpp.i
@@ -1125,7 +1125,7 @@ src/unit-constructor1.i: src/unit-constructor1.cpp.i
 
 # target to preprocess a source file
 src/unit-constructor1.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.i
 .PHONY : src/unit-constructor1.cpp.i
 
 src/unit-constructor1.s: src/unit-constructor1.cpp.s
@@ -1134,7 +1134,7 @@ src/unit-constructor1.s: src/unit-constructor1.cpp.s
 
 # target to generate assembly for a file
 src/unit-constructor1.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor1.dir/build.make json/test/CMakeFiles/test-constructor1.dir/src/unit-constructor1.cpp.s
 .PHONY : src/unit-constructor1.cpp.s
 
 src/unit-constructor2.o: src/unit-constructor2.cpp.o
@@ -1143,7 +1143,7 @@ src/unit-constructor2.o: src/unit-constructor2.cpp.o
 
 # target to build an object file
 src/unit-constructor2.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.o
 .PHONY : src/unit-constructor2.cpp.o
 
 src/unit-constructor2.i: src/unit-constructor2.cpp.i
@@ -1152,7 +1152,7 @@ src/unit-constructor2.i: src/unit-constructor2.cpp.i
 
 # target to preprocess a source file
 src/unit-constructor2.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.i
 .PHONY : src/unit-constructor2.cpp.i
 
 src/unit-constructor2.s: src/unit-constructor2.cpp.s
@@ -1161,7 +1161,7 @@ src/unit-constructor2.s: src/unit-constructor2.cpp.s
 
 # target to generate assembly for a file
 src/unit-constructor2.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-constructor2.dir/build.make json/test/CMakeFiles/test-constructor2.dir/src/unit-constructor2.cpp.s
 .PHONY : src/unit-constructor2.cpp.s
 
 src/unit-convenience.o: src/unit-convenience.cpp.o
@@ -1170,7 +1170,7 @@ src/unit-convenience.o: src/unit-convenience.cpp.o
 
 # target to build an object file
 src/unit-convenience.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o
 .PHONY : src/unit-convenience.cpp.o
 
 src/unit-convenience.i: src/unit-convenience.cpp.i
@@ -1179,7 +1179,7 @@ src/unit-convenience.i: src/unit-convenience.cpp.i
 
 # target to preprocess a source file
 src/unit-convenience.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i
 .PHONY : src/unit-convenience.cpp.i
 
 src/unit-convenience.s: src/unit-convenience.cpp.s
@@ -1188,7 +1188,7 @@ src/unit-convenience.s: src/unit-convenience.cpp.s
 
 # target to generate assembly for a file
 src/unit-convenience.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-convenience.dir/build.make json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s
 .PHONY : src/unit-convenience.cpp.s
 
 src/unit-conversions.o: src/unit-conversions.cpp.o
@@ -1197,7 +1197,7 @@ src/unit-conversions.o: src/unit-conversions.cpp.o
 
 # target to build an object file
 src/unit-conversions.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.o
 .PHONY : src/unit-conversions.cpp.o
 
 src/unit-conversions.i: src/unit-conversions.cpp.i
@@ -1206,7 +1206,7 @@ src/unit-conversions.i: src/unit-conversions.cpp.i
 
 # target to preprocess a source file
 src/unit-conversions.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.i
 .PHONY : src/unit-conversions.cpp.i
 
 src/unit-conversions.s: src/unit-conversions.cpp.s
@@ -1215,7 +1215,7 @@ src/unit-conversions.s: src/unit-conversions.cpp.s
 
 # target to generate assembly for a file
 src/unit-conversions.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-conversions.dir/build.make json/test/CMakeFiles/test-conversions.dir/src/unit-conversions.cpp.s
 .PHONY : src/unit-conversions.cpp.s
 
 src/unit-deserialization.o: src/unit-deserialization.cpp.o
@@ -1224,7 +1224,7 @@ src/unit-deserialization.o: src/unit-deserialization.cpp.o
 
 # target to build an object file
 src/unit-deserialization.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.o
 .PHONY : src/unit-deserialization.cpp.o
 
 src/unit-deserialization.i: src/unit-deserialization.cpp.i
@@ -1233,7 +1233,7 @@ src/unit-deserialization.i: src/unit-deserialization.cpp.i
 
 # target to preprocess a source file
 src/unit-deserialization.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.i
 .PHONY : src/unit-deserialization.cpp.i
 
 src/unit-deserialization.s: src/unit-deserialization.cpp.s
@@ -1242,7 +1242,7 @@ src/unit-deserialization.s: src/unit-deserialization.cpp.s
 
 # target to generate assembly for a file
 src/unit-deserialization.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-deserialization.dir/build.make json/test/CMakeFiles/test-deserialization.dir/src/unit-deserialization.cpp.s
 .PHONY : src/unit-deserialization.cpp.s
 
 src/unit-element_access1.o: src/unit-element_access1.cpp.o
@@ -1251,7 +1251,7 @@ src/unit-element_access1.o: src/unit-element_access1.cpp.o
 
 # target to build an object file
 src/unit-element_access1.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.o
 .PHONY : src/unit-element_access1.cpp.o
 
 src/unit-element_access1.i: src/unit-element_access1.cpp.i
@@ -1260,7 +1260,7 @@ src/unit-element_access1.i: src/unit-element_access1.cpp.i
 
 # target to preprocess a source file
 src/unit-element_access1.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.i
 .PHONY : src/unit-element_access1.cpp.i
 
 src/unit-element_access1.s: src/unit-element_access1.cpp.s
@@ -1269,7 +1269,7 @@ src/unit-element_access1.s: src/unit-element_access1.cpp.s
 
 # target to generate assembly for a file
 src/unit-element_access1.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access1.dir/build.make json/test/CMakeFiles/test-element_access1.dir/src/unit-element_access1.cpp.s
 .PHONY : src/unit-element_access1.cpp.s
 
 src/unit-element_access2.o: src/unit-element_access2.cpp.o
@@ -1278,7 +1278,7 @@ src/unit-element_access2.o: src/unit-element_access2.cpp.o
 
 # target to build an object file
 src/unit-element_access2.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.o
 .PHONY : src/unit-element_access2.cpp.o
 
 src/unit-element_access2.i: src/unit-element_access2.cpp.i
@@ -1287,7 +1287,7 @@ src/unit-element_access2.i: src/unit-element_access2.cpp.i
 
 # target to preprocess a source file
 src/unit-element_access2.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.i
 .PHONY : src/unit-element_access2.cpp.i
 
 src/unit-element_access2.s: src/unit-element_access2.cpp.s
@@ -1296,7 +1296,7 @@ src/unit-element_access2.s: src/unit-element_access2.cpp.s
 
 # target to generate assembly for a file
 src/unit-element_access2.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-element_access2.dir/build.make json/test/CMakeFiles/test-element_access2.dir/src/unit-element_access2.cpp.s
 .PHONY : src/unit-element_access2.cpp.s
 
 src/unit-inspection.o: src/unit-inspection.cpp.o
@@ -1305,7 +1305,7 @@ src/unit-inspection.o: src/unit-inspection.cpp.o
 
 # target to build an object file
 src/unit-inspection.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.o
 .PHONY : src/unit-inspection.cpp.o
 
 src/unit-inspection.i: src/unit-inspection.cpp.i
@@ -1314,7 +1314,7 @@ src/unit-inspection.i: src/unit-inspection.cpp.i
 
 # target to preprocess a source file
 src/unit-inspection.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.i
 .PHONY : src/unit-inspection.cpp.i
 
 src/unit-inspection.s: src/unit-inspection.cpp.s
@@ -1323,7 +1323,7 @@ src/unit-inspection.s: src/unit-inspection.cpp.s
 
 # target to generate assembly for a file
 src/unit-inspection.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-inspection.dir/build.make json/test/CMakeFiles/test-inspection.dir/src/unit-inspection.cpp.s
 .PHONY : src/unit-inspection.cpp.s
 
 src/unit-items.o: src/unit-items.cpp.o
@@ -1332,7 +1332,7 @@ src/unit-items.o: src/unit-items.cpp.o
 
 # target to build an object file
 src/unit-items.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.o
 .PHONY : src/unit-items.cpp.o
 
 src/unit-items.i: src/unit-items.cpp.i
@@ -1341,7 +1341,7 @@ src/unit-items.i: src/unit-items.cpp.i
 
 # target to preprocess a source file
 src/unit-items.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.i
 .PHONY : src/unit-items.cpp.i
 
 src/unit-items.s: src/unit-items.cpp.s
@@ -1350,7 +1350,7 @@ src/unit-items.s: src/unit-items.cpp.s
 
 # target to generate assembly for a file
 src/unit-items.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-items.dir/build.make json/test/CMakeFiles/test-items.dir/src/unit-items.cpp.s
 .PHONY : src/unit-items.cpp.s
 
 src/unit-iterators1.o: src/unit-iterators1.cpp.o
@@ -1359,7 +1359,7 @@ src/unit-iterators1.o: src/unit-iterators1.cpp.o
 
 # target to build an object file
 src/unit-iterators1.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.o
 .PHONY : src/unit-iterators1.cpp.o
 
 src/unit-iterators1.i: src/unit-iterators1.cpp.i
@@ -1368,7 +1368,7 @@ src/unit-iterators1.i: src/unit-iterators1.cpp.i
 
 # target to preprocess a source file
 src/unit-iterators1.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.i
 .PHONY : src/unit-iterators1.cpp.i
 
 src/unit-iterators1.s: src/unit-iterators1.cpp.s
@@ -1377,7 +1377,7 @@ src/unit-iterators1.s: src/unit-iterators1.cpp.s
 
 # target to generate assembly for a file
 src/unit-iterators1.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators1.dir/build.make json/test/CMakeFiles/test-iterators1.dir/src/unit-iterators1.cpp.s
 .PHONY : src/unit-iterators1.cpp.s
 
 src/unit-iterators2.o: src/unit-iterators2.cpp.o
@@ -1386,7 +1386,7 @@ src/unit-iterators2.o: src/unit-iterators2.cpp.o
 
 # target to build an object file
 src/unit-iterators2.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.o
 .PHONY : src/unit-iterators2.cpp.o
 
 src/unit-iterators2.i: src/unit-iterators2.cpp.i
@@ -1395,7 +1395,7 @@ src/unit-iterators2.i: src/unit-iterators2.cpp.i
 
 # target to preprocess a source file
 src/unit-iterators2.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.i
 .PHONY : src/unit-iterators2.cpp.i
 
 src/unit-iterators2.s: src/unit-iterators2.cpp.s
@@ -1404,7 +1404,7 @@ src/unit-iterators2.s: src/unit-iterators2.cpp.s
 
 # target to generate assembly for a file
 src/unit-iterators2.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-iterators2.dir/build.make json/test/CMakeFiles/test-iterators2.dir/src/unit-iterators2.cpp.s
 .PHONY : src/unit-iterators2.cpp.s
 
 src/unit-json_patch.o: src/unit-json_patch.cpp.o
@@ -1413,7 +1413,7 @@ src/unit-json_patch.o: src/unit-json_patch.cpp.o
 
 # target to build an object file
 src/unit-json_patch.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.o
 .PHONY : src/unit-json_patch.cpp.o
 
 src/unit-json_patch.i: src/unit-json_patch.cpp.i
@@ -1422,7 +1422,7 @@ src/unit-json_patch.i: src/unit-json_patch.cpp.i
 
 # target to preprocess a source file
 src/unit-json_patch.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.i
 .PHONY : src/unit-json_patch.cpp.i
 
 src/unit-json_patch.s: src/unit-json_patch.cpp.s
@@ -1431,7 +1431,7 @@ src/unit-json_patch.s: src/unit-json_patch.cpp.s
 
 # target to generate assembly for a file
 src/unit-json_patch.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_patch.dir/build.make json/test/CMakeFiles/test-json_patch.dir/src/unit-json_patch.cpp.s
 .PHONY : src/unit-json_patch.cpp.s
 
 src/unit-json_pointer.o: src/unit-json_pointer.cpp.o
@@ -1440,7 +1440,7 @@ src/unit-json_pointer.o: src/unit-json_pointer.cpp.o
 
 # target to build an object file
 src/unit-json_pointer.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.o
 .PHONY : src/unit-json_pointer.cpp.o
 
 src/unit-json_pointer.i: src/unit-json_pointer.cpp.i
@@ -1449,7 +1449,7 @@ src/unit-json_pointer.i: src/unit-json_pointer.cpp.i
 
 # target to preprocess a source file
 src/unit-json_pointer.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.i
 .PHONY : src/unit-json_pointer.cpp.i
 
 src/unit-json_pointer.s: src/unit-json_pointer.cpp.s
@@ -1458,7 +1458,7 @@ src/unit-json_pointer.s: src/unit-json_pointer.cpp.s
 
 # target to generate assembly for a file
 src/unit-json_pointer.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-json_pointer.dir/build.make json/test/CMakeFiles/test-json_pointer.dir/src/unit-json_pointer.cpp.s
 .PHONY : src/unit-json_pointer.cpp.s
 
 src/unit-merge_patch.o: src/unit-merge_patch.cpp.o
@@ -1467,7 +1467,7 @@ src/unit-merge_patch.o: src/unit-merge_patch.cpp.o
 
 # target to build an object file
 src/unit-merge_patch.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.o
 .PHONY : src/unit-merge_patch.cpp.o
 
 src/unit-merge_patch.i: src/unit-merge_patch.cpp.i
@@ -1476,7 +1476,7 @@ src/unit-merge_patch.i: src/unit-merge_patch.cpp.i
 
 # target to preprocess a source file
 src/unit-merge_patch.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.i
 .PHONY : src/unit-merge_patch.cpp.i
 
 src/unit-merge_patch.s: src/unit-merge_patch.cpp.s
@@ -1485,7 +1485,7 @@ src/unit-merge_patch.s: src/unit-merge_patch.cpp.s
 
 # target to generate assembly for a file
 src/unit-merge_patch.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-merge_patch.dir/build.make json/test/CMakeFiles/test-merge_patch.dir/src/unit-merge_patch.cpp.s
 .PHONY : src/unit-merge_patch.cpp.s
 
 src/unit-meta.o: src/unit-meta.cpp.o
@@ -1494,7 +1494,7 @@ src/unit-meta.o: src/unit-meta.cpp.o
 
 # target to build an object file
 src/unit-meta.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.o
 .PHONY : src/unit-meta.cpp.o
 
 src/unit-meta.i: src/unit-meta.cpp.i
@@ -1503,7 +1503,7 @@ src/unit-meta.i: src/unit-meta.cpp.i
 
 # target to preprocess a source file
 src/unit-meta.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.i
 .PHONY : src/unit-meta.cpp.i
 
 src/unit-meta.s: src/unit-meta.cpp.s
@@ -1512,7 +1512,7 @@ src/unit-meta.s: src/unit-meta.cpp.s
 
 # target to generate assembly for a file
 src/unit-meta.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-meta.dir/build.make json/test/CMakeFiles/test-meta.dir/src/unit-meta.cpp.s
 .PHONY : src/unit-meta.cpp.s
 
 src/unit-modifiers.o: src/unit-modifiers.cpp.o
@@ -1521,7 +1521,7 @@ src/unit-modifiers.o: src/unit-modifiers.cpp.o
 
 # target to build an object file
 src/unit-modifiers.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.o
 .PHONY : src/unit-modifiers.cpp.o
 
 src/unit-modifiers.i: src/unit-modifiers.cpp.i
@@ -1530,7 +1530,7 @@ src/unit-modifiers.i: src/unit-modifiers.cpp.i
 
 # target to preprocess a source file
 src/unit-modifiers.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.i
 .PHONY : src/unit-modifiers.cpp.i
 
 src/unit-modifiers.s: src/unit-modifiers.cpp.s
@@ -1539,7 +1539,7 @@ src/unit-modifiers.s: src/unit-modifiers.cpp.s
 
 # target to generate assembly for a file
 src/unit-modifiers.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-modifiers.dir/build.make json/test/CMakeFiles/test-modifiers.dir/src/unit-modifiers.cpp.s
 .PHONY : src/unit-modifiers.cpp.s
 
 src/unit-msgpack.o: src/unit-msgpack.cpp.o
@@ -1548,7 +1548,7 @@ src/unit-msgpack.o: src/unit-msgpack.cpp.o
 
 # target to build an object file
 src/unit-msgpack.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.o
 .PHONY : src/unit-msgpack.cpp.o
 
 src/unit-msgpack.i: src/unit-msgpack.cpp.i
@@ -1557,7 +1557,7 @@ src/unit-msgpack.i: src/unit-msgpack.cpp.i
 
 # target to preprocess a source file
 src/unit-msgpack.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.i
 .PHONY : src/unit-msgpack.cpp.i
 
 src/unit-msgpack.s: src/unit-msgpack.cpp.s
@@ -1566,7 +1566,7 @@ src/unit-msgpack.s: src/unit-msgpack.cpp.s
 
 # target to generate assembly for a file
 src/unit-msgpack.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-msgpack.dir/build.make json/test/CMakeFiles/test-msgpack.dir/src/unit-msgpack.cpp.s
 .PHONY : src/unit-msgpack.cpp.s
 
 src/unit-noexcept.o: src/unit-noexcept.cpp.o
@@ -1575,7 +1575,7 @@ src/unit-noexcept.o: src/unit-noexcept.cpp.o
 
 # target to build an object file
 src/unit-noexcept.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.o
 .PHONY : src/unit-noexcept.cpp.o
 
 src/unit-noexcept.i: src/unit-noexcept.cpp.i
@@ -1584,7 +1584,7 @@ src/unit-noexcept.i: src/unit-noexcept.cpp.i
 
 # target to preprocess a source file
 src/unit-noexcept.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.i
 .PHONY : src/unit-noexcept.cpp.i
 
 src/unit-noexcept.s: src/unit-noexcept.cpp.s
@@ -1593,7 +1593,7 @@ src/unit-noexcept.s: src/unit-noexcept.cpp.s
 
 # target to generate assembly for a file
 src/unit-noexcept.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-noexcept.dir/build.make json/test/CMakeFiles/test-noexcept.dir/src/unit-noexcept.cpp.s
 .PHONY : src/unit-noexcept.cpp.s
 
 src/unit-pointer_access.o: src/unit-pointer_access.cpp.o
@@ -1602,7 +1602,7 @@ src/unit-pointer_access.o: src/unit-pointer_access.cpp.o
 
 # target to build an object file
 src/unit-pointer_access.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.o
 .PHONY : src/unit-pointer_access.cpp.o
 
 src/unit-pointer_access.i: src/unit-pointer_access.cpp.i
@@ -1611,7 +1611,7 @@ src/unit-pointer_access.i: src/unit-pointer_access.cpp.i
 
 # target to preprocess a source file
 src/unit-pointer_access.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.i
 .PHONY : src/unit-pointer_access.cpp.i
 
 src/unit-pointer_access.s: src/unit-pointer_access.cpp.s
@@ -1620,7 +1620,7 @@ src/unit-pointer_access.s: src/unit-pointer_access.cpp.s
 
 # target to generate assembly for a file
 src/unit-pointer_access.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-pointer_access.dir/build.make json/test/CMakeFiles/test-pointer_access.dir/src/unit-pointer_access.cpp.s
 .PHONY : src/unit-pointer_access.cpp.s
 
 src/unit-readme.o: src/unit-readme.cpp.o
@@ -1629,7 +1629,7 @@ src/unit-readme.o: src/unit-readme.cpp.o
 
 # target to build an object file
 src/unit-readme.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.o
 .PHONY : src/unit-readme.cpp.o
 
 src/unit-readme.i: src/unit-readme.cpp.i
@@ -1638,7 +1638,7 @@ src/unit-readme.i: src/unit-readme.cpp.i
 
 # target to preprocess a source file
 src/unit-readme.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.i
 .PHONY : src/unit-readme.cpp.i
 
 src/unit-readme.s: src/unit-readme.cpp.s
@@ -1647,7 +1647,7 @@ src/unit-readme.s: src/unit-readme.cpp.s
 
 # target to generate assembly for a file
 src/unit-readme.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-readme.dir/build.make json/test/CMakeFiles/test-readme.dir/src/unit-readme.cpp.s
 .PHONY : src/unit-readme.cpp.s
 
 src/unit-reference_access.o: src/unit-reference_access.cpp.o
@@ -1656,7 +1656,7 @@ src/unit-reference_access.o: src/unit-reference_access.cpp.o
 
 # target to build an object file
 src/unit-reference_access.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.o
 .PHONY : src/unit-reference_access.cpp.o
 
 src/unit-reference_access.i: src/unit-reference_access.cpp.i
@@ -1665,7 +1665,7 @@ src/unit-reference_access.i: src/unit-reference_access.cpp.i
 
 # target to preprocess a source file
 src/unit-reference_access.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.i
 .PHONY : src/unit-reference_access.cpp.i
 
 src/unit-reference_access.s: src/unit-reference_access.cpp.s
@@ -1674,7 +1674,7 @@ src/unit-reference_access.s: src/unit-reference_access.cpp.s
 
 # target to generate assembly for a file
 src/unit-reference_access.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-reference_access.dir/build.make json/test/CMakeFiles/test-reference_access.dir/src/unit-reference_access.cpp.s
 .PHONY : src/unit-reference_access.cpp.s
 
 src/unit-regression.o: src/unit-regression.cpp.o
@@ -1683,7 +1683,7 @@ src/unit-regression.o: src/unit-regression.cpp.o
 
 # target to build an object file
 src/unit-regression.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o
 .PHONY : src/unit-regression.cpp.o
 
 src/unit-regression.i: src/unit-regression.cpp.i
@@ -1692,7 +1692,7 @@ src/unit-regression.i: src/unit-regression.cpp.i
 
 # target to preprocess a source file
 src/unit-regression.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.i
 .PHONY : src/unit-regression.cpp.i
 
 src/unit-regression.s: src/unit-regression.cpp.s
@@ -1701,7 +1701,7 @@ src/unit-regression.s: src/unit-regression.cpp.s
 
 # target to generate assembly for a file
 src/unit-regression.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-regression.dir/build.make json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.s
 .PHONY : src/unit-regression.cpp.s
 
 src/unit-serialization.o: src/unit-serialization.cpp.o
@@ -1710,7 +1710,7 @@ src/unit-serialization.o: src/unit-serialization.cpp.o
 
 # target to build an object file
 src/unit-serialization.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.o
 .PHONY : src/unit-serialization.cpp.o
 
 src/unit-serialization.i: src/unit-serialization.cpp.i
@@ -1719,7 +1719,7 @@ src/unit-serialization.i: src/unit-serialization.cpp.i
 
 # target to preprocess a source file
 src/unit-serialization.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.i
 .PHONY : src/unit-serialization.cpp.i
 
 src/unit-serialization.s: src/unit-serialization.cpp.s
@@ -1728,7 +1728,7 @@ src/unit-serialization.s: src/unit-serialization.cpp.s
 
 # target to generate assembly for a file
 src/unit-serialization.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-serialization.dir/build.make json/test/CMakeFiles/test-serialization.dir/src/unit-serialization.cpp.s
 .PHONY : src/unit-serialization.cpp.s
 
 src/unit-testsuites.o: src/unit-testsuites.cpp.o
@@ -1737,7 +1737,7 @@ src/unit-testsuites.o: src/unit-testsuites.cpp.o
 
 # target to build an object file
 src/unit-testsuites.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.o
 .PHONY : src/unit-testsuites.cpp.o
 
 src/unit-testsuites.i: src/unit-testsuites.cpp.i
@@ -1746,7 +1746,7 @@ src/unit-testsuites.i: src/unit-testsuites.cpp.i
 
 # target to preprocess a source file
 src/unit-testsuites.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.i
 .PHONY : src/unit-testsuites.cpp.i
 
 src/unit-testsuites.s: src/unit-testsuites.cpp.s
@@ -1755,7 +1755,7 @@ src/unit-testsuites.s: src/unit-testsuites.cpp.s
 
 # target to generate assembly for a file
 src/unit-testsuites.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-testsuites.dir/build.make json/test/CMakeFiles/test-testsuites.dir/src/unit-testsuites.cpp.s
 .PHONY : src/unit-testsuites.cpp.s
 
 src/unit-to_chars.o: src/unit-to_chars.cpp.o
@@ -1764,7 +1764,7 @@ src/unit-to_chars.o: src/unit-to_chars.cpp.o
 
 # target to build an object file
 src/unit-to_chars.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.o
 .PHONY : src/unit-to_chars.cpp.o
 
 src/unit-to_chars.i: src/unit-to_chars.cpp.i
@@ -1773,7 +1773,7 @@ src/unit-to_chars.i: src/unit-to_chars.cpp.i
 
 # target to preprocess a source file
 src/unit-to_chars.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.i
 .PHONY : src/unit-to_chars.cpp.i
 
 src/unit-to_chars.s: src/unit-to_chars.cpp.s
@@ -1782,7 +1782,7 @@ src/unit-to_chars.s: src/unit-to_chars.cpp.s
 
 # target to generate assembly for a file
 src/unit-to_chars.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-to_chars.dir/build.make json/test/CMakeFiles/test-to_chars.dir/src/unit-to_chars.cpp.s
 .PHONY : src/unit-to_chars.cpp.s
 
 src/unit-ubjson.o: src/unit-ubjson.cpp.o
@@ -1791,7 +1791,7 @@ src/unit-ubjson.o: src/unit-ubjson.cpp.o
 
 # target to build an object file
 src/unit-ubjson.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.o
 .PHONY : src/unit-ubjson.cpp.o
 
 src/unit-ubjson.i: src/unit-ubjson.cpp.i
@@ -1800,7 +1800,7 @@ src/unit-ubjson.i: src/unit-ubjson.cpp.i
 
 # target to preprocess a source file
 src/unit-ubjson.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.i
 .PHONY : src/unit-ubjson.cpp.i
 
 src/unit-ubjson.s: src/unit-ubjson.cpp.s
@@ -1809,7 +1809,7 @@ src/unit-ubjson.s: src/unit-ubjson.cpp.s
 
 # target to generate assembly for a file
 src/unit-ubjson.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-ubjson.dir/build.make json/test/CMakeFiles/test-ubjson.dir/src/unit-ubjson.cpp.s
 .PHONY : src/unit-ubjson.cpp.s
 
 src/unit-udt.o: src/unit-udt.cpp.o
@@ -1818,7 +1818,7 @@ src/unit-udt.o: src/unit-udt.cpp.o
 
 # target to build an object file
 src/unit-udt.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.o
 .PHONY : src/unit-udt.cpp.o
 
 src/unit-udt.i: src/unit-udt.cpp.i
@@ -1827,7 +1827,7 @@ src/unit-udt.i: src/unit-udt.cpp.i
 
 # target to preprocess a source file
 src/unit-udt.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.i
 .PHONY : src/unit-udt.cpp.i
 
 src/unit-udt.s: src/unit-udt.cpp.s
@@ -1836,7 +1836,7 @@ src/unit-udt.s: src/unit-udt.cpp.s
 
 # target to generate assembly for a file
 src/unit-udt.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-udt.dir/build.make json/test/CMakeFiles/test-udt.dir/src/unit-udt.cpp.s
 .PHONY : src/unit-udt.cpp.s
 
 src/unit-unicode.o: src/unit-unicode.cpp.o
@@ -1845,7 +1845,7 @@ src/unit-unicode.o: src/unit-unicode.cpp.o
 
 # target to build an object file
 src/unit-unicode.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o
 .PHONY : src/unit-unicode.cpp.o
 
 src/unit-unicode.i: src/unit-unicode.cpp.i
@@ -1854,7 +1854,7 @@ src/unit-unicode.i: src/unit-unicode.cpp.i
 
 # target to preprocess a source file
 src/unit-unicode.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i
 .PHONY : src/unit-unicode.cpp.i
 
 src/unit-unicode.s: src/unit-unicode.cpp.s
@@ -1863,7 +1863,7 @@ src/unit-unicode.s: src/unit-unicode.cpp.s
 
 # target to generate assembly for a file
 src/unit-unicode.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-unicode.dir/build.make json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s
 .PHONY : src/unit-unicode.cpp.s
 
 src/unit-wstring.o: src/unit-wstring.cpp.o
@@ -1872,7 +1872,7 @@ src/unit-wstring.o: src/unit-wstring.cpp.o
 
 # target to build an object file
 src/unit-wstring.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.o
 .PHONY : src/unit-wstring.cpp.o
 
 src/unit-wstring.i: src/unit-wstring.cpp.i
@@ -1881,7 +1881,7 @@ src/unit-wstring.i: src/unit-wstring.cpp.i
 
 # target to preprocess a source file
 src/unit-wstring.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.i
 .PHONY : src/unit-wstring.cpp.i
 
 src/unit-wstring.s: src/unit-wstring.cpp.s
@@ -1890,7 +1890,7 @@ src/unit-wstring.s: src/unit-wstring.cpp.s
 
 # target to generate assembly for a file
 src/unit-wstring.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/test-wstring.dir/build.make json/test/CMakeFiles/test-wstring.dir/src/unit-wstring.cpp.s
 .PHONY : src/unit-wstring.cpp.s
 
 src/unit.o: src/unit.cpp.o
@@ -1899,7 +1899,7 @@ src/unit.o: src/unit.cpp.o
 
 # target to build an object file
 src/unit.cpp.o:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
 .PHONY : src/unit.cpp.o
 
 src/unit.i: src/unit.cpp.i
@@ -1908,7 +1908,7 @@ src/unit.i: src/unit.cpp.i
 
 # target to preprocess a source file
 src/unit.cpp.i:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.i
 .PHONY : src/unit.cpp.i
 
 src/unit.s: src/unit.cpp.s
@@ -1917,7 +1917,7 @@ src/unit.s: src/unit.cpp.s
 
 # target to generate assembly for a file
 src/unit.cpp.s:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/test/CMakeFiles/doctest_main.dir/build.make json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.s
 .PHONY : src/unit.cpp.s
 
 # Help Target
@@ -2111,6 +2111,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

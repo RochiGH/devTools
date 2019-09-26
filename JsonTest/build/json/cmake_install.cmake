@@ -1,4 +1,4 @@
-# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json
+# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/single_include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/single_include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json" TYPE FILE FILES
-    "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/nlohmann_jsonConfig.cmake"
-    "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/nlohmann_jsonConfigVersion.cmake"
+    "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/nlohmann_jsonConfig.cmake"
+    "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/nlohmann_jsonConfigVersion.cmake"
     )
 endif()
 
@@ -47,7 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake"
-         "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/Export/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake")
+         "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/Export/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json/nlohmann_jsonTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -56,12 +56,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json" TYPE FILE FILES "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/Export/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlohmann_json" TYPE FILE FILES "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/Export/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/cmake_install.cmake")
+  include("/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/cmake_install.cmake")
 
 endif()
 

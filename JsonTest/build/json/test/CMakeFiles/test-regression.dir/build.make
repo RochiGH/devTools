@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Include any dependencies generated for this target.
 include json/test/CMakeFiles/test-regression.dir/depend.make
@@ -59,16 +59,16 @@ include json/test/CMakeFiles/test-regression.dir/flags.make
 
 json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o: json/test/CMakeFiles/test-regression.dir/flags.make
 json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o: ../json/test/src/unit-regression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-regression.dir/src/unit-regression.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-regression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-regression.dir/src/unit-regression.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-regression.cpp
 
 json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-regression.dir/src/unit-regression.cpp.i"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-regression.cpp > CMakeFiles/test-regression.dir/src/unit-regression.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-regression.cpp > CMakeFiles/test-regression.dir/src/unit-regression.cpp.i
 
 json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-regression.dir/src/unit-regression.cpp.s"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-regression.cpp -o CMakeFiles/test-regression.dir/src/unit-regression.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-regression.cpp -o CMakeFiles/test-regression.dir/src/unit-regression.cpp.s
 
 # Object files for target test-regression
 test__regression_OBJECTS = \
@@ -76,14 +76,14 @@ test__regression_OBJECTS = \
 
 # External object files for target test-regression
 test__regression_EXTERNAL_OBJECTS = \
-"/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
+"/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
 
 json/test/test-regression: json/test/CMakeFiles/test-regression.dir/src/unit-regression.cpp.o
 json/test/test-regression: json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
 json/test/test-regression: json/test/CMakeFiles/test-regression.dir/build.make
 json/test/test-regression: json/test/CMakeFiles/test-regression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-regression"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-regression.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-regression"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-regression.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 json/test/CMakeFiles/test-regression.dir/build: json/test/test-regression
@@ -91,10 +91,10 @@ json/test/CMakeFiles/test-regression.dir/build: json/test/test-regression
 .PHONY : json/test/CMakeFiles/test-regression.dir/build
 
 json/test/CMakeFiles/test-regression.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-regression.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-regression.dir/cmake_clean.cmake
 .PHONY : json/test/CMakeFiles/test-regression.dir/clean
 
 json/test/CMakeFiles/test-regression.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/test-regression.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/test-regression.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/test/CMakeFiles/test-regression.dir/depend
 

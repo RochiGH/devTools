@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Include any dependencies generated for this target.
 include json/test/CMakeFiles/test-unicode.dir/depend.make
@@ -59,16 +59,16 @@ include json/test/CMakeFiles/test-unicode.dir/flags.make
 
 json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o: json/test/CMakeFiles/test-unicode.dir/flags.make
 json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o: ../json/test/src/unit-unicode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-unicode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-unicode.cpp
 
 json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-unicode.cpp > CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-unicode.cpp > CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.i
 
 json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-unicode.cpp -o CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-unicode.cpp -o CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.s
 
 # Object files for target test-unicode
 test__unicode_OBJECTS = \
@@ -76,14 +76,14 @@ test__unicode_OBJECTS = \
 
 # External object files for target test-unicode
 test__unicode_EXTERNAL_OBJECTS = \
-"/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
+"/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
 
 json/test/test-unicode: json/test/CMakeFiles/test-unicode.dir/src/unit-unicode.cpp.o
 json/test/test-unicode: json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
 json/test/test-unicode: json/test/CMakeFiles/test-unicode.dir/build.make
 json/test/test-unicode: json/test/CMakeFiles/test-unicode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-unicode"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-unicode.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-unicode"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-unicode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 json/test/CMakeFiles/test-unicode.dir/build: json/test/test-unicode
@@ -91,10 +91,10 @@ json/test/CMakeFiles/test-unicode.dir/build: json/test/test-unicode
 .PHONY : json/test/CMakeFiles/test-unicode.dir/build
 
 json/test/CMakeFiles/test-unicode.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-unicode.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-unicode.dir/cmake_clean.cmake
 .PHONY : json/test/CMakeFiles/test-unicode.dir/clean
 
 json/test/CMakeFiles/test-unicode.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/test-unicode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/test-unicode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/test/CMakeFiles/test-unicode.dir/depend
 

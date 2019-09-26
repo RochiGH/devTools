@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Utility rule file for ContinuousCoverage.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
 include json/CMakeFiles/ContinuousCoverage.dir/progress.make
 
 json/CMakeFiles/ContinuousCoverage:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ContinuousCoverage
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && /Applications/CMake.app/Contents/bin/ctest -D ContinuousCoverage
 
 ContinuousCoverage: json/CMakeFiles/ContinuousCoverage
 ContinuousCoverage: json/CMakeFiles/ContinuousCoverage.dir/build.make
@@ -67,10 +67,10 @@ json/CMakeFiles/ContinuousCoverage.dir/build: ContinuousCoverage
 .PHONY : json/CMakeFiles/ContinuousCoverage.dir/build
 
 json/CMakeFiles/ContinuousCoverage.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake
 .PHONY : json/CMakeFiles/ContinuousCoverage.dir/clean
 
 json/CMakeFiles/ContinuousCoverage.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/CMakeFiles/ContinuousCoverage.dir/depend
 

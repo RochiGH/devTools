@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 # Include any dependencies generated for this target.
 include json/test/CMakeFiles/test-convenience.dir/depend.make
@@ -59,16 +59,16 @@ include json/test/CMakeFiles/test-convenience.dir/flags.make
 
 json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o: json/test/CMakeFiles/test-convenience.dir/flags.make
 json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o: ../json/test/src/unit-convenience.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-convenience.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o -c /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-convenience.cpp
 
 json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-convenience.cpp > CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-convenience.cpp > CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.i
 
 json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/src/unit-convenience.cpp -o CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/src/unit-convenience.cpp -o CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.s
 
 # Object files for target test-convenience
 test__convenience_OBJECTS = \
@@ -76,14 +76,14 @@ test__convenience_OBJECTS = \
 
 # External object files for target test-convenience
 test__convenience_EXTERNAL_OBJECTS = \
-"/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
+"/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o"
 
 json/test/test-convenience: json/test/CMakeFiles/test-convenience.dir/src/unit-convenience.cpp.o
 json/test/test-convenience: json/test/CMakeFiles/doctest_main.dir/src/unit.cpp.o
 json/test/test-convenience: json/test/CMakeFiles/test-convenience.dir/build.make
 json/test/test-convenience: json/test/CMakeFiles/test-convenience.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-convenience"
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-convenience.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-convenience"
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-convenience.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 json/test/CMakeFiles/test-convenience.dir/build: json/test/test-convenience
@@ -91,10 +91,10 @@ json/test/CMakeFiles/test-convenience.dir/build: json/test/test-convenience
 .PHONY : json/test/CMakeFiles/test-convenience.dir/build
 
 json/test/CMakeFiles/test-convenience.dir/clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-convenience.dir/cmake_clean.cmake
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test && $(CMAKE_COMMAND) -P CMakeFiles/test-convenience.dir/cmake_clean.cmake
 .PHONY : json/test/CMakeFiles/test-convenience.dir/clean
 
 json/test/CMakeFiles/test-convenience.dir/depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/test/CMakeFiles/test-convenience.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/test/CMakeFiles/test-convenience.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : json/test/CMakeFiles/test-convenience.dir/depend
 

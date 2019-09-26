@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest
+CMAKE_SOURCE_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build
+CMAKE_BINARY_DIR = /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json/CMakeFiles/progress.marks
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/CMakeFiles 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json/CMakeFiles/progress.marks
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/clean
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousCoverage.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousCoverage.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousCoverage.dir/rule
 .PHONY : json/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ContinuousCoverage: json/CMakeFiles/ContinuousCoverage.dir/rule
 
 # fast build rule for target.
 ContinuousCoverage/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousCoverage.dir/build.make json/CMakeFiles/ContinuousCoverage.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousCoverage.dir/build.make json/CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousTest.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousTest.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousTest.dir/rule
 .PHONY : json/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ ContinuousTest: json/CMakeFiles/ContinuousTest.dir/rule
 
 # fast build rule for target.
 ContinuousTest/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousTest.dir/build.make json/CMakeFiles/ContinuousTest.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousTest.dir/build.make json/CMakeFiles/ContinuousTest.dir/build
 .PHONY : ContinuousTest/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousBuild.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousBuild.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousBuild.dir/rule
 .PHONY : json/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ ContinuousBuild: json/CMakeFiles/ContinuousBuild.dir/rule
 
 # fast build rule for target.
 ContinuousBuild/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousBuild.dir/build.make json/CMakeFiles/ContinuousBuild.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousBuild.dir/build.make json/CMakeFiles/ContinuousBuild.dir/build
 .PHONY : ContinuousBuild/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousStart.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousStart.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousStart.dir/rule
 .PHONY : json/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ ContinuousStart: json/CMakeFiles/ContinuousStart.dir/rule
 
 # fast build rule for target.
 ContinuousStart/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousStart.dir/build.make json/CMakeFiles/ContinuousStart.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousStart.dir/build.make json/CMakeFiles/ContinuousStart.dir/build
 .PHONY : ContinuousStart/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalBuild.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalBuild.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalBuild.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ ExperimentalBuild: json/CMakeFiles/ExperimentalBuild.dir/rule
 
 # fast build rule for target.
 ExperimentalBuild/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalBuild.dir/build.make json/CMakeFiles/ExperimentalBuild.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalBuild.dir/build.make json/CMakeFiles/ExperimentalBuild.dir/build
 .PHONY : ExperimentalBuild/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalCoverage.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalCoverage.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalCoverage.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ ExperimentalCoverage: json/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # fast build rule for target.
 ExperimentalCoverage/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalCoverage.dir/build.make json/CMakeFiles/ExperimentalCoverage.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalCoverage.dir/build.make json/CMakeFiles/ExperimentalCoverage.dir/build
 .PHONY : ExperimentalCoverage/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalSubmit.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalSubmit.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalSubmit.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ ExperimentalSubmit: json/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # fast build rule for target.
 ExperimentalSubmit/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalSubmit.dir/build.make json/CMakeFiles/ExperimentalSubmit.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalSubmit.dir/build.make json/CMakeFiles/ExperimentalSubmit.dir/build
 .PHONY : ExperimentalSubmit/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousUpdate.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousUpdate.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousUpdate.dir/rule
 .PHONY : json/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ ContinuousUpdate: json/CMakeFiles/ContinuousUpdate.dir/rule
 
 # fast build rule for target.
 ContinuousUpdate/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousUpdate.dir/build.make json/CMakeFiles/ContinuousUpdate.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousUpdate.dir/build.make json/CMakeFiles/ContinuousUpdate.dir/build
 .PHONY : ContinuousUpdate/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalUpdate.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalUpdate.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalUpdate.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ ExperimentalUpdate: json/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # fast build rule for target.
 ExperimentalUpdate/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalUpdate.dir/build.make json/CMakeFiles/ExperimentalUpdate.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalUpdate.dir/build.make json/CMakeFiles/ExperimentalUpdate.dir/build
 .PHONY : ExperimentalUpdate/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalStart.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalStart.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalStart.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ ExperimentalStart: json/CMakeFiles/ExperimentalStart.dir/rule
 
 # fast build rule for target.
 ExperimentalStart/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalStart.dir/build.make json/CMakeFiles/ExperimentalStart.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalStart.dir/build.make json/CMakeFiles/ExperimentalStart.dir/build
 .PHONY : ExperimentalStart/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousSubmit.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousSubmit.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousSubmit.dir/rule
 .PHONY : json/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ ContinuousSubmit: json/CMakeFiles/ContinuousSubmit.dir/rule
 
 # fast build rule for target.
 ContinuousSubmit/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousSubmit.dir/build.make json/CMakeFiles/ContinuousSubmit.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousSubmit.dir/build.make json/CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalTest.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalTest.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalTest.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ ExperimentalTest: json/CMakeFiles/ExperimentalTest.dir/rule
 
 # fast build rule for target.
 ExperimentalTest/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalTest.dir/build.make json/CMakeFiles/ExperimentalTest.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalTest.dir/build.make json/CMakeFiles/ExperimentalTest.dir/build
 .PHONY : ExperimentalTest/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlySubmit.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlySubmit.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlySubmit.dir/rule
 .PHONY : json/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ NightlySubmit: json/CMakeFiles/NightlySubmit.dir/rule
 
 # fast build rule for target.
 NightlySubmit/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlySubmit.dir/build.make json/CMakeFiles/NightlySubmit.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlySubmit.dir/build.make json/CMakeFiles/NightlySubmit.dir/build
 .PHONY : NightlySubmit/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyMemCheck.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyMemCheck.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyMemCheck.dir/rule
 .PHONY : json/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -363,12 +363,12 @@ NightlyMemCheck: json/CMakeFiles/NightlyMemCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemCheck/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyMemCheck.dir/build.make json/CMakeFiles/NightlyMemCheck.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyMemCheck.dir/build.make json/CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalConfigure.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalConfigure.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalConfigure.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ ExperimentalConfigure: json/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # fast build rule for target.
 ExperimentalConfigure/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalConfigure.dir/build.make json/CMakeFiles/ExperimentalConfigure.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalConfigure.dir/build.make json/CMakeFiles/ExperimentalConfigure.dir/build
 .PHONY : ExperimentalConfigure/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyCoverage.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyCoverage.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyCoverage.dir/rule
 .PHONY : json/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -393,12 +393,12 @@ NightlyCoverage: json/CMakeFiles/NightlyCoverage.dir/rule
 
 # fast build rule for target.
 NightlyCoverage/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyCoverage.dir/build.make json/CMakeFiles/NightlyCoverage.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyCoverage.dir/build.make json/CMakeFiles/NightlyCoverage.dir/build
 .PHONY : NightlyCoverage/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyTest.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyTest.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyTest.dir/rule
 .PHONY : json/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -408,12 +408,12 @@ NightlyTest: json/CMakeFiles/NightlyTest.dir/rule
 
 # fast build rule for target.
 NightlyTest/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyTest.dir/build.make json/CMakeFiles/NightlyTest.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyTest.dir/build.make json/CMakeFiles/NightlyTest.dir/build
 .PHONY : NightlyTest/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousMemCheck.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousMemCheck.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousMemCheck.dir/rule
 .PHONY : json/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -423,12 +423,12 @@ ContinuousMemCheck: json/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # fast build rule for target.
 ContinuousMemCheck/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousMemCheck.dir/build.make json/CMakeFiles/ContinuousMemCheck.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousMemCheck.dir/build.make json/CMakeFiles/ContinuousMemCheck.dir/build
 .PHONY : ContinuousMemCheck/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyBuild.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyBuild.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyBuild.dir/rule
 .PHONY : json/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -438,12 +438,12 @@ NightlyBuild: json/CMakeFiles/NightlyBuild.dir/rule
 
 # fast build rule for target.
 NightlyBuild/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyBuild.dir/build.make json/CMakeFiles/NightlyBuild.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyBuild.dir/build.make json/CMakeFiles/NightlyBuild.dir/build
 .PHONY : NightlyBuild/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyConfigure.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyConfigure.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyConfigure.dir/rule
 .PHONY : json/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -453,12 +453,12 @@ NightlyConfigure: json/CMakeFiles/NightlyConfigure.dir/rule
 
 # fast build rule for target.
 NightlyConfigure/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyConfigure.dir/build.make json/CMakeFiles/NightlyConfigure.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyConfigure.dir/build.make json/CMakeFiles/NightlyConfigure.dir/build
 .PHONY : NightlyConfigure/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyUpdate.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyUpdate.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyUpdate.dir/rule
 .PHONY : json/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -468,12 +468,12 @@ NightlyUpdate: json/CMakeFiles/NightlyUpdate.dir/rule
 
 # fast build rule for target.
 NightlyUpdate/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyUpdate.dir/build.make json/CMakeFiles/NightlyUpdate.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyUpdate.dir/build.make json/CMakeFiles/NightlyUpdate.dir/build
 .PHONY : NightlyUpdate/fast
 
 # Convenience name for target.
 json/CMakeFiles/ExperimentalMemCheck.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalMemCheck.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ExperimentalMemCheck.dir/rule
 .PHONY : json/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -483,12 +483,12 @@ ExperimentalMemCheck: json/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # fast build rule for target.
 ExperimentalMemCheck/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalMemCheck.dir/build.make json/CMakeFiles/ExperimentalMemCheck.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ExperimentalMemCheck.dir/build.make json/CMakeFiles/ExperimentalMemCheck.dir/build
 .PHONY : ExperimentalMemCheck/fast
 
 # Convenience name for target.
 json/CMakeFiles/ContinuousConfigure.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousConfigure.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/ContinuousConfigure.dir/rule
 .PHONY : json/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -498,12 +498,12 @@ ContinuousConfigure: json/CMakeFiles/ContinuousConfigure.dir/rule
 
 # fast build rule for target.
 ContinuousConfigure/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousConfigure.dir/build.make json/CMakeFiles/ContinuousConfigure.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/ContinuousConfigure.dir/build.make json/CMakeFiles/ContinuousConfigure.dir/build
 .PHONY : ContinuousConfigure/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyMemoryCheck.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyMemoryCheck.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyMemoryCheck.dir/rule
 .PHONY : json/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -513,12 +513,12 @@ NightlyMemoryCheck: json/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # fast build rule for target.
 NightlyMemoryCheck/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyMemoryCheck.dir/build.make json/CMakeFiles/NightlyMemoryCheck.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyMemoryCheck.dir/build.make json/CMakeFiles/NightlyMemoryCheck.dir/build
 .PHONY : NightlyMemoryCheck/fast
 
 # Convenience name for target.
 json/CMakeFiles/NightlyStart.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyStart.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/NightlyStart.dir/rule
 .PHONY : json/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -528,12 +528,12 @@ NightlyStart: json/CMakeFiles/NightlyStart.dir/rule
 
 # fast build rule for target.
 NightlyStart/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyStart.dir/build.make json/CMakeFiles/NightlyStart.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/NightlyStart.dir/build.make json/CMakeFiles/NightlyStart.dir/build
 .PHONY : NightlyStart/fast
 
 # Convenience name for target.
 json/CMakeFiles/Nightly.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Nightly.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Nightly.dir/rule
 .PHONY : json/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -543,12 +543,12 @@ Nightly: json/CMakeFiles/Nightly.dir/rule
 
 # fast build rule for target.
 Nightly/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/Nightly.dir/build.make json/CMakeFiles/Nightly.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/Nightly.dir/build.make json/CMakeFiles/Nightly.dir/build
 .PHONY : Nightly/fast
 
 # Convenience name for target.
 json/CMakeFiles/Continuous.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Continuous.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Continuous.dir/rule
 .PHONY : json/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -558,12 +558,12 @@ Continuous: json/CMakeFiles/Continuous.dir/rule
 
 # fast build rule for target.
 Continuous/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/Continuous.dir/build.make json/CMakeFiles/Continuous.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/Continuous.dir/build.make json/CMakeFiles/Continuous.dir/build
 .PHONY : Continuous/fast
 
 # Convenience name for target.
 json/CMakeFiles/Experimental.dir/rule:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Experimental.dir/rule
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f CMakeFiles/Makefile2 json/CMakeFiles/Experimental.dir/rule
 .PHONY : json/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -573,7 +573,7 @@ Experimental: json/CMakeFiles/Experimental.dir/rule
 
 # fast build rule for target.
 Experimental/fast:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(MAKE) -f json/CMakeFiles/Experimental.dir/build.make json/CMakeFiles/Experimental.dir/build
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(MAKE) -f json/CMakeFiles/Experimental.dir/build.make json/CMakeFiles/Experimental.dir/build
 .PHONY : Experimental/fast
 
 # Help Target
@@ -627,6 +627,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

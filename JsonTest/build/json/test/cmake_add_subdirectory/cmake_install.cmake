@@ -1,4 +1,4 @@
-# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json/test/cmake_add_subdirectory
+# Install script for directory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json/test/cmake_add_subdirectory
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

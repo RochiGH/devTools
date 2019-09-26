@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json
-BuildDirectory: /Users/roccoferrante/Dropbox/Coding/C++/JsonTest/build/json
+SourceDirectory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json
+BuildDirectory: /Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/build/json
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/roccoferrante/Dropbox/Coding/C++/JsonTest/json"
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/roccoferrante/Dropbox/Coding/C++/DevTools/JsonTest/json"
 MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
